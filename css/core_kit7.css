@@ -5986,15 +5986,6 @@
     position:relative;
     z-index:3
    }
-   /* line 90, src/assets/scss/pages/_pages-landing-kit7.scss */.hero.rounded-hero.is-active .absolute-header {
-    -webkit-transform:translateY(0);
-    transform:translateY(0)
-   }
-   /* line 94, src/assets/scss/pages/_pages-landing-kit7.scss */.hero.rounded-hero.is-active .absolute-header .header-inner .states {
-    opacity:1;
-    -webkit-transform:translateY(-50%) scale(1);
-    transform:translateY(-50%) scale(1)
-   }
    /* line 102, src/assets/scss/pages/_pages-landing-kit7.scss */.hero.rounded-hero.is-active .hero-body .hero-mockup {
     -webkit-transform:translateY(0);
     transform:translateY(0);
@@ -6007,7 +5998,7 @@
     margin:0 auto;
     -webkit-transform:translateY(10px);
     transform:translateY(10px);
-    opacity:0;
+    /* opacity:0; */
     border-radius:12px;
     -webkit-box-shadow:-1px 3px 15px 0 rgba(0,0,0,0.06);
     box-shadow:-1px 3px 15px 0 rgba(0,0,0,0.06);
@@ -6040,10 +6031,6 @@
     height:580px;
     background:#4A00E0;
     background:linear-gradient(-45deg, #8E2DE2, #4A00E0, #4A00E0, #8E2DE2);
-    -webkit-transform:translateY(-100%);
-    transform:translateY(-100%);
-    -webkit-transition:all .3s;
-    transition:all .3s
    }
    /* line 151, src/assets/scss/pages/_pages-landing-kit7.scss */.absolute-header .header-inner {
     position:relative;
@@ -8569,3 +8556,15 @@
    
    /*# sourceMappingURL=../../../scss */
    
+
+
+
+.hero.is-theme-primary,
+.section.is-theme-primary {
+ background:linear-gradient(45deg, red, #6441A5);
+}
+
+
+/*! _hero.scss | Bulkit | CSS Ninja *//* line 22, src/assets/scss/layout/_layout-hero.scss */.hero.is-relative {
+    position:relative;
+}

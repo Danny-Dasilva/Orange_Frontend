@@ -9601,9 +9601,6 @@
        -ms-flex-pack:justify;
        justify-content:space-between
       }
-      /* line 8, src/assets/sass/sass/layout/hero.sass */.hero .navbar {
-       background:none
-      }
       /* line 11, src/assets/sass/sass/layout/hero.sass */.hero .tabs ul {
        border-bottom:none
       }
@@ -10405,6 +10402,11 @@
        background-color:#fafafa;
        padding:3rem 1.5rem 6rem
       }
-      
-      /*# sourceMappingURL=../../../sass */
-      
+      .navigation-tabs .navtab-content {
+        display:none;
+        padding:15px;
+        min-height:190px
+       }
+       .navigation-tabs .navtab-content.is-active {
+        display:block
+       }

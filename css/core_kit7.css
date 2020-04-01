@@ -44,23 +44,13 @@
    /* line 36, src/assets/scss/layout/_layout-utils.scss */section:focus {
     outline:none !important
    }
-   @font-face {
-    font-family:'Nexa Light';
-    src:url("../fonts/text/nexa/NexaLight.woff") format("woff"),
-    url("../fonts/text/nexa/NexaLight.ttf") format("truetype")
-   }
-   @font-face {
-    font-family:'Nexa Bold';
-    font-weight:bold;
-    src:url("../fonts/text/nexa/NexaBold.woff") format("woff"),
-    url("../fonts/text/nexa/NexaBold.ttf") format("truetype")
-   }
+   
    /* line 56, src/assets/scss/layout/_layout-utils.scss */#backtotop {
     position:fixed;
     right:0;
     opacity:0;
     visibility:hidden;
-    bottom:25px;
+    bottom:100px;
     margin:0 25px 0 0;
     z-index:9999;
     -webkit-transition:0.35s;
@@ -77,38 +67,37 @@
     transform:scale(1)
    }
    /* line 76, src/assets/scss/layout/_layout-utils.scss */#backtotop.visible a:hover {
-    outline:none;
-    opacity:0.9;
-    background:#23a6d5
+    
    }
    /* line 82, src/assets/scss/layout/_layout-utils.scss */#backtotop a {
     outline:none;
     text-decoration:none;
     border:0 none;
     display:block;
-    width:46px;
+    width:80px;
     height:46px;
-    background-color:#66676b;
     opacity:1;
     -webkit-transition:all 0.3s;
     transition:all 0.3s;
-    border-radius:50%;
     text-align:center;
-    font-size:26px
+    font-size:16px;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+
    }
    /* line 97, src/assets/scss/layout/_layout-utils.scss */body #backtotop a {
     outline:none;
     color:#fff
    }
    /* line 102, src/assets/scss/layout/_layout-utils.scss */#backtotop a:after {
-    outline:none;
-    content:"\f106";
-    font-family:"FontAwesome";
-    position:relative;
-    display:block;
-    top:50%;
-    -webkit-transform:translateY(-55%);
-    transform:translateY(-55%)
+    position: absolute;
+    width: 30%;
+    height: 2px;
+    background-color: #fff;
+    content: "";
+    top: 12px;
+    right: 100%;
+    z-index: -200 !important;
    }
    /* line 118, src/assets/scss/layout/_layout-utils.scss */.progress {
     width:100% !important
@@ -962,11 +951,11 @@
    }
    /*! _footer.scss | Bulkit | CSS Ninja *//* line 17, src/assets/scss/layout/_layout-footer.scss */.footer-light-medium {
     padding-bottom:0 !important;
-    padding-top:4rem !important;
+    padding-top: 2rem !important;
     background:#fafafa
    }
    /* line 22, src/assets/scss/layout/_layout-footer.scss */.footer-light-medium .footer-head {
-    padding-bottom:3rem;
+    padding-bottom:1.5rem;
     display:-webkit-box;
     display:-ms-flexbox;
     display:flex;
@@ -1052,7 +1041,7 @@
    }
    /* line 119, src/assets/scss/layout/_layout-footer.scss */.footer-light-medium .footer-copyright {
     color:#999;
-    padding:4rem 0 2rem 0
+    padding: 2rem 0 2rem 0
    }
    /* line 123, src/assets/scss/layout/_layout-footer.scss */.footer-light-medium .footer-copyright a {
     color:#999
@@ -8567,4 +8556,35 @@
 
 /*! _hero.scss | Bulkit | CSS Ninja *//* line 22, src/assets/scss/layout/_layout-hero.scss */.hero.is-relative {
     position:relative;
+}
+
+#scrollUp {
+    bottom: 130px;
+    font-size: 12px;
+    line-height: 22px;
+    right: 30px;
+    width: 100px;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    height: 20px;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    text-transform: uppercase;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+#scrollUp::before {
+    position: absolute;
+    width: 30%;
+    height: 2px;
+    background-color: #fff;
+    content: "";
+    top: 10px;
+    right: 100%;
+    z-index: -200 !important;
+}
+
+.dark {
+    background-color: #c2c2c2;
 }

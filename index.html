@@ -13,212 +13,16 @@
 
     <div class="hero is-fullheight rounded-hero">
 
-        <!-- Navbar partial -->
-        <nav class="navbar navbar-wrapper is-cloned">
+
+
+        <nav id="nav" class="navbar is-transparent is-fixed-top is-faded">
             <div class="container">
-                <!-- Brand -->
                 <div class="navbar-brand">
                     <a class="navbar-item" href="/">
-                        <img src="img/logos/bulkit-mauve.svg" alt="">
+                        <img class="light-logo" src="assets/img/logo/bulkit-light.svg" width="28" height="28" alt="">
+                        <img class="dark-logo is-hidden" src="assets/img/logo/bulkit-dark.svg" width="28" height="28" alt="">
                     </a>
-
-                    <!-- Sidebar Trigger -->
-                    <a class="navbar-item hamburger-btn navigation-trigger" href="javascript:void(0);">
-                        <span class="menu-toggle">
-                                <span class="icon-box-toggle">
-                                    <span class="rotate">
-                                        <i class="icon-line-top"></i>
-                                        <i class="icon-line-center"></i>
-                                        <i class="icon-line-bottom"></i>
-                                    </span>
-                        </span>
-                        </span>
-                    </a>
-
-                    <!-- Responsive toggle -->
-                    <div class="custom-burger" data-target="is-cloned">
-                        <a class="responsive-btn" href="javascript:void(0);">
-                            <span class="menu-toggle">
-                                    <span class="icon-box-toggle">
-                                        <span class="rotate">
-                                            <i class="icon-line-top"></i>
-                                            <i class="icon-line-center"></i>
-                                            <i class="icon-line-bottom"></i>
-                                        </span>
-                            </span>
-                            </span>
-                        </a>
-                    </div>
-                    <!-- /Responsive toggle -->
-                </div>
-
-                <!-- Navbar menu -->
-                <div id="is-cloned" class="navbar-menu">
-                    <!-- Navbar Start -->
-                    <div class="navbar-start">
-                        <!-- Dropdown -->
-                        <div class="navbar-item has-dropdown is-hoverable is-mega is-hidden-mobile">
-                            <div class="navbar-link">
-                                Product
-                            </div>
-                            <div class="navbar-dropdown is-megamenu animated prefadeInUp fadeInUp" data-style="width: 18rem;">
-                                <div class="mega-inner">
-                                    <div class="container">
-                                        <div class="columns">
-                                            <div class="column">
-                                                <h2 class="title is-6 is-mega-menu-title">Segmentation</h2>
-                                                <a class="navbar-item is-flex" href="kit7-landing.html">
-                                                    <i class="im im-icon-Structure"></i>
-                                                    <div class="navbar-content">
-                                                        <p>
-                                                            <small class="color-primary">Segments</small>
-                                                        </p>
-                                                        <p>Segment your customers</p>
-                                                    </div>
-                                                </a>
-                                                <a class="navbar-item is-flex" href="kit7-landing.html">
-                                                    <i class="im im-icon-Umbrella-3"></i>
-                                                    <div class="navbar-content">
-                                                        <p>
-                                                            <small class="color-primary">Impact Reports</small>
-                                                        </p>
-                                                        <p>Get detailed impact reports</p>
-                                                    </div>
-                                                </a>
-                                                <a class="navbar-item is-flex" href="kit7-landing.html">
-                                                    <i class="im im-icon-Mail-Add"></i>
-                                                    <div class="navbar-content">
-                                                        <p>
-                                                            <small class="color-primary">Campaigns</small>
-                                                        </p>
-                                                        <p>Targeted Campaigns</p>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="column">
-                                                <h2 class="title is-6 is-mega-menu-title">Lead Generation</h2>
-                                                <a class="navbar-item is-flex" href="kit7-landing.html">
-                                                    <i class="im im-icon-Magnifi-Glass2"></i>
-                                                    <div class="navbar-content">
-                                                        <p>
-                                                            <small class="color-primary">Search</small>
-                                                        </p>
-                                                        <p>Lead automation digging</p>
-                                                    </div>
-                                                </a>
-                                                <a class="navbar-item is-flex" href="kit7-landing.html">
-                                                    <i class="im im-icon-Two-Windows"></i>
-                                                    <div class="navbar-content">
-                                                        <p>
-                                                            <small class="color-primary">Chrome Extension</small>
-                                                        </p>
-                                                        <p>Generate more leads</p>
-                                                    </div>
-                                                </a>
-                                                <a class="navbar-item is-flex" href="kit7-landing.html">
-                                                    <i class="im im-icon-Flash"></i>
-                                                    <div class="navbar-content">
-                                                        <p>
-                                                            <small class="color-primary">Progress tracker</small>
-                                                        </p>
-                                                        <p>Track your progress</p>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="column">
-                                                <h2 class="title is-6 is-mega-menu-title">Deal Management</h2>
-                                                <a class="navbar-item is-flex" href="kit7-landing.html">
-                                                    <i class="im im-icon-Sidebar-Window"></i>
-                                                    <div class="navbar-content">
-                                                        <p>
-                                                            <small class="color-primary">Dashboard</small>
-                                                        </p>
-                                                        <p>Manage your deals</p>
-                                                    </div>
-                                                </a>
-                                                <a class="navbar-item is-flex" href="kit7-landing.html">
-                                                    <i class="im im-icon-Note"></i>
-                                                    <div class="navbar-content">
-                                                        <p>
-                                                            <small class="color-primary">Financial Reports</small>
-                                                        </p>
-                                                        <p>Assess your efficiency</p>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="column">
-                                                <h2 class="title is-6 is-mega-menu-title">Get Started</h2>
-                                                <p class="is-cta">This is a wonderful menu description item. It can be used as a CTA.</p>
-                                                <p class="is-cta">
-                                                    <a href="#" class="button btn-align mega-btn primary-btn">Learn more</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <hr class="navbar-divider">
-                                    <div class="navbar-item is-footer is-hidden-mobile">
-                                        <div class="navbar-content">
-                                            <div class="level is-mobile">
-                                                <div class="level-left">
-                                                    <div class="level-item">
-                                                        <strong>Follow us</strong>
-                                                    </div>
-                                                </div>
-                                                <div class="level-right">
-                                                    <div class="level-item">
-                                                        <a class="social-link" href="#"><i class="fa fa-twitter"></i></a>
-                                                        <a class="social-link" href="#"><i class="fa fa-facebook"></i></a>
-                                                        <a class="social-link" href="#"><i class="fa fa-behance"></i></a>
-                                                        <a class="social-link" href="#"><i class="fa fa-github"></i></a>
-                                                        <a class="social-link" href="#"><i class="fa fa-tumblr"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="menu-image is-hidden-mobile">
-                                        <img src="assets/img/shapes/megamenu-kit7.svg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- Navbar item -->
-                        <a class="navbar-item is-slide is-centered-tablet is-hidden-desktop is-hidden-tablet" href="kit7-landing.html">
-                            Product
-                        </a>
-
-                    </div>
-
-                    <!-- Navbar end -->
-                    <div class="navbar-end">
-                        <!-- Navbar item -->
-                        <a class="navbar-item is-slide is-centered-tablet" href="kit7-pricing.html">
-                            Pricing
-                        </a>
-                        <!-- Navbar item -->
-                        <a class="navbar-item is-slide is-centered-tablet" href="kit7-authentication.html">
-                            Login
-                        </a>
-                        <!-- Signup button -->
-                        <div class="navbar-item is-button is-centered-tablet">
-                            <a id="#signup-btn" href="kit7-authentication.html" class="button button-cta is-bold btn-align primary-btn raised is-rounded">
-                                Sign up
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
-
-        <nav class="navbar navbar-wrapper navbar-light is-transparent is-static">
-            <div class="container">
-                <!-- Brand -->
-                <div class="navbar-brand">
-                    <a class="navbar-item" href="/">
-                        <img src="assets/img/logos/bulkit-white.svg" alt="">
-                    </a>
-
+    
                     <!-- Sidebar Trigger -->
                     <a id="navigation-trigger" class="navbar-item hamburger-btn" href="javascript:void(0);">
                         <span class="menu-toggle">
@@ -231,182 +35,38 @@
                         </span>
                         </span>
                     </a>
-
-                    <!-- Responsive toggle -->
-                    <div class="custom-burger" data-target="is-static">
-                        <a class="responsive-btn" href="javascript:void(0);">
-                            <span class="menu-toggle">
-                                    <span class="icon-box-toggle">
-                                        <span class="rotate">
-                                            <i class="icon-line-top"></i>
-                                            <i class="icon-line-center"></i>
-                                            <i class="icon-line-bottom"></i>
-                                        </span>
-                            </span>
-                            </span>
-                        </a>
-                    </div>
-                    <!-- /Responsive toggle -->
+    
+                    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
                 </div>
-
-                <!-- Navbar menu -->
-                <div id="is-static" class="navbar-menu">
-                    <!-- Navbar Start -->
+    
+                <div class="navbar-menu">
                     <div class="navbar-start">
-                        <!-- Dropdown -->
-                        <div class="navbar-item has-dropdown is-hoverable is-mega is-hidden-mobile">
-                            <div class="navbar-link">
-                                Product
-                            </div>
-                            <div class="navbar-dropdown is-megamenu animated prefadeInUp fadeInUp" data-style="width: 18rem;">
-                                <div class="mega-inner">
-                                    <div class="container">
-                                        <div class="columns">
-                                            <div class="column">
-                                                <h2 class="title is-6 is-mega-menu-title">Segmentation</h2>
-                                                <a class="navbar-item is-flex" href="kit7-landing.html">
-                                                    <i class="im im-icon-Structure"></i>
-                                                    <div class="navbar-content">
-                                                        <p>
-                                                            <small class="color-primary">Segments</small>
-                                                        </p>
-                                                        <p>Segment your customers</p>
-                                                    </div>
-                                                </a>
-                                                <a class="navbar-item is-flex" href="kit7-landing.html">
-                                                    <i class="im im-icon-Umbrella-3"></i>
-                                                    <div class="navbar-content">
-                                                        <p>
-                                                            <small class="color-primary">Impact Reports</small>
-                                                        </p>
-                                                        <p>Get detailed impact reports</p>
-                                                    </div>
-                                                </a>
-                                                <a class="navbar-item is-flex" href="kit7-landing.html">
-                                                    <i class="im im-icon-Mail-Add"></i>
-                                                    <div class="navbar-content">
-                                                        <p>
-                                                            <small class="color-primary">Campaigns</small>
-                                                        </p>
-                                                        <p>Targeted Campaigns</p>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="column">
-                                                <h2 class="title is-6 is-mega-menu-title">Lead Generation</h2>
-                                                <a class="navbar-item is-flex" href="kit7-landing.html">
-                                                    <i class="im im-icon-Magnifi-Glass2"></i>
-                                                    <div class="navbar-content">
-                                                        <p>
-                                                            <small class="color-primary">Search</small>
-                                                        </p>
-                                                        <p>Lead automation digging</p>
-                                                    </div>
-                                                </a>
-                                                <a class="navbar-item is-flex" href="kit7-landing.html">
-                                                    <i class="im im-icon-Two-Windows"></i>
-                                                    <div class="navbar-content">
-                                                        <p>
-                                                            <small class="color-primary">Chrome Extension</small>
-                                                        </p>
-                                                        <p>Generate more leads</p>
-                                                    </div>
-                                                </a>
-                                                <a class="navbar-item is-flex" href="kit7-landing.html">
-                                                    <i class="im im-icon-Flash"></i>
-                                                    <div class="navbar-content">
-                                                        <p>
-                                                            <small class="color-primary">Progress tracker</small>
-                                                        </p>
-                                                        <p>Track your progress</p>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="column">
-                                                <h2 class="title is-6 is-mega-menu-title">Deal Management</h2>
-                                                <a class="navbar-item is-flex" href="kit7-landing.html">
-                                                    <i class="im im-icon-Sidebar-Window"></i>
-                                                    <div class="navbar-content">
-                                                        <p>
-                                                            <small class="color-primary">Dashboard</small>
-                                                        </p>
-                                                        <p>Manage your deals</p>
-                                                    </div>
-                                                </a>
-                                                <a class="navbar-item is-flex" href="kit7-landing.html">
-                                                    <i class="im im-icon-Note"></i>
-                                                    <div class="navbar-content">
-                                                        <p>
-                                                            <small class="color-primary">Financial Reports</small>
-                                                        </p>
-                                                        <p>Assess your efficiency</p>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="column">
-                                                <h2 class="title is-6 is-mega-menu-title">Get Started</h2>
-                                                <p class="is-cta">This is a wonderful menu description item. It can be used as a CTA.</p>
-                                                <p class="is-cta">
-                                                    <a href="#" class="button btn-align mega-btn primary-btn">Learn more</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <hr class="navbar-divider">
-                                    <div class="navbar-item is-footer is-hidden-mobile">
-                                        <div class="navbar-content">
-                                            <div class="level is-mobile">
-                                                <div class="level-left">
-                                                    <div class="level-item">
-                                                        <strong>Follow us</strong>
-                                                    </div>
-                                                </div>
-                                                <div class="level-right">
-                                                    <div class="level-item">
-                                                        <a class="social-link" href="#"><i class="fa fa-twitter"></i></a>
-                                                        <a class="social-link" href="#"><i class="fa fa-facebook"></i></a>
-                                                        <a class="social-link" href="#"><i class="fa fa-behance"></i></a>
-                                                        <a class="social-link" href="#"><i class="fa fa-github"></i></a>
-                                                        <a class="social-link" href="#"><i class="fa fa-tumblr"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="menu-image is-hidden-mobile">
-                                        <img src="assets/img/shapes/megamenu-kit7.svg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- Navbar item -->
-                        <a class="navbar-item is-slide is-centered-tablet is-hidden-desktop is-hidden-tablet" href="kit7-landing.html">
-                            Product
+                        <a href="#features-1" class="navbar-item has-hover">
+                            Features
                         </a>
-
-                    </div>
-
-                    <!-- Navbar end -->
-                    <div class="navbar-end">
-                        <!-- Navbar item -->
-                        <a class="navbar-item is-slide is-centered-tablet" href="kit7-pricing.html">
+    
+                        <a href="#pricing" class="navbar-item has-hover">
                             Pricing
                         </a>
-                        <!-- Navbar item -->
-                        <a class="navbar-item is-slide is-centered-tablet" href="kit7-authentication.html">
+                    </div>
+    
+                    <div class="navbar-end has-hover">
+                        <a class="navbar-item has-border-right">
                             Login
                         </a>
-                        <!-- Signup button -->
-                        <div class="navbar-item is-button is-centered-tablet">
-                            <a id="#signup-btn-double" href="kit7-authentication.html" class="button button-cta is-bold btn-align primary-btn raised is-rounded">
-                                Sign up
-                            </a>
+                        <div class="separator"></div>
+                        <div class="navbar-item">
+                            <a href="#" class="button cta-button is-rounded accent-button">Join Beta</a>
                         </div>
                     </div>
                 </div>
             </div>
         </nav>
+
         <div class="absolute-header">
             <div class="header-inner">
                 <img class="cut-circle" src="assets/img/shapes/cut-circle.svg" alt="">
@@ -501,12 +161,13 @@
     <div class="section">
         <div class="container">
             <!-- Feature -->
-            <div class="columns is-vcentered">
+            <div class="columns is-vcentered dark">
                 <div class="column is-7 has-text-centered">
-                    <img class="featured-image" src="assets/img/illustrations/UI/feature-1.png" alt="">
+                    <img class="featured-image" src="img/display/feature-1.png" alt="">
                 </div>
                 <div class="column is-5">
-                    <h2 class="title section-title is-demo bordered dark-text no-margin">Generate Leads</h2>
+                    <h3 class="title section-title is-demo bordered dark-text no-margin">High Speed Video Encoding</h3>
+                    <div class="title-divider"></div>
                     <p class="section-feature-description">Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum
                         inermis
                         iudicabit. Ex vidit fierent hendrerit eum, sed stet periculis ut. Vis in probo decore labitur.
@@ -518,501 +179,192 @@
                 <div class="column is-7 has-text-centered is-hidden-desktop is-hidden-tablet">
                     <img class="featured-image" src="assets/img/illustrations/UI/feature-2.png" alt="">
                 </div>
+                
                 <div class="column is-5">
-                    <h2 class="title section-title is-demo bordered dark-text no-margin">Set Up Workflows</h2>
+                    <h2 class="title section-title is-demo bordered dark-text no-margin">Game Specific Ai Models</h2>
+                    <div class="title-divider"></div>
                     <p class="section-feature-description">Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum
                         inermis
                         iudicabit. Ex vidit fierent hendrerit eum, sed stet periculis ut. Vis in probo decore labitur.
                     </p>
+
+
+                  
+
+
+
                 </div>
                 <div class="column is-7 has-text-centered is-hidden-mobile">
-                    <img class="featured-image" src="assets/img/illustrations/UI/feature-2.png" alt="">
+                    <div class="navigation-tabs animated-tabs simple-tabs">
+                        <div class="tabs is-centered">
+                            <ul>
+                                <li class="tab-link is-active" data-tab="t1"><a>Red Side</a></li>
+                                <li class="tab-link" data-tab="t2"><a>Blue Side</a></li>
+                                <li class="tab-link" data-tab="t3"><a>Power Cells</a></li>
+                            </ul>
+                        </div>
+                        <div id="tab-a1" data-content="t1"  class="navtab-content is-active">
+                            <img class="featured-image" src="img/display/feature-2.png" alt="">
+                        </div>
+                        <div id="tab-a2" data-content="t2" class="navtab-content">
+                            <p>Lorem ipsum dolor sit amet, ad blandit intellegam cum, nulla legere possit id vim, clita nullam graecis duo ne. Ea utamur tacimates reprehendunt est, ut ponderum abhorreant pri, facete regione cotidieque cu mea. Vis at duis veritus incorrupte, saperet propriae corrumpit cu eam.</p>
+                        </div>
+                        <div id="tab-a3" data-content="t3"  class="navtab-content">
+                            <p>Nam cibo consul insolens ei, at commune perfecto qui, ad vel summo vivendo. Ea est nostrum urbanitas accommodare. Ne mea esse possim quaerendum, sumo nullam disputando sit cu. Ridens labore dicunt mea id</p>
+                        </div>
+                    </div>
+
+                    
                 </div>
             </div>
-            <!-- Feature -->
-            <div class="columns is-vcentered">
-                <div class="column is-7 has-text-centered">
-                    <img class="featured-image" src="assets/img/illustrations/UI/feature-3.png" alt="">
+
+
+              <!-- Feature -->
+              <div class="columns is-vcentered dark">
+                <div class="column is-7 has-text-centered is-hidden-desktop is-hidden-tablet">
+                    <img class="featured-image" src="assets/img/illustrations/UI/feature-2.png" alt="">
                 </div>
+                
                 <div class="column is-5">
-                    <h2 class="title section-title is-demo bordered dark-text no-margin">Track Your Tasks</h2>
+                    <h2 class="title section-title is-demo bordered dark-text no-margin">vIDEO</h2>
+                    <div class="title-divider"></div>
                     <p class="section-feature-description">Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum
                         inermis
                         iudicabit. Ex vidit fierent hendrerit eum, sed stet periculis ut. Vis in probo decore labitur.
                     </p>
+
+
+                  
+
+
+
+                </div>
+                <div class="column is-7 has-text-centered is-hidden-mobile">
+                    <div class="navigation-tabs animated-tabs simple-tabs">
+                        <div class="tabs is-centered">
+                            <ul>
+                                <li class="tab-link is-active" data-tab="t1"><a>Red Side</a></li>
+                                <li class="tab-link" data-tab="t2"><a>Blue Side</a></li>
+                                <li class="tab-link" data-tab="t3"><a>Power Cells</a></li>
+                            </ul>
+                        </div>
+                        <div id="tab-a1" data-content="t1"  class="navtab-content is-active">
+                            <img class="featured-image" src="img/display/feature-2.png" alt="">
+                        </div>
+                        <div id="tab-a2" data-content="t2" class="navtab-content">
+                            <p>Lorem ipsum dolor sit amet, ad blandit intellegam cum, nulla legere possit id vim, clita nullam graecis duo ne. Ea utamur tacimates reprehendunt est, ut ponderum abhorreant pri, facete regione cotidieque cu mea. Vis at duis veritus incorrupte, saperet propriae corrumpit cu eam.</p>
+                        </div>
+                        <div id="tab-a3" data-content="t3"  class="navtab-content">
+                            <p>Nam cibo consul insolens ei, at commune perfecto qui, ad vel summo vivendo. Ea est nostrum urbanitas accommodare. Ne mea esse possim quaerendum, sumo nullam disputando sit cu. Ridens labore dicunt mea id</p>
+                        </div>
+                    </div>
+
+                    
                 </div>
             </div>
+
+
+
+
+              <!-- Feature -->
+              <div class="columns is-vcentered">
+                <div class="column is-7 has-text-centered is-hidden-desktop is-hidden-tablet">
+                    <img class="featured-image" src="assets/img/illustrations/UI/feature-2.png" alt="">
+                </div>
+                
+                <div class="column is-5">
+                    <h2 class="title section-title is-demo bordered dark-text no-margin">sTATST</h2>
+                    <div class="title-divider"></div>
+                    <p class="section-feature-description">Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum
+                        inermis
+                        iudicabit. Ex vidit fierent hendrerit eum, sed stet periculis ut. Vis in probo decore labitur.
+                    </p>
+
+
+                  
+
+
+
+                </div>
+                <div class="column is-7 has-text-centered is-hidden-mobile">
+                    <div class="navigation-tabs animated-tabs simple-tabs">
+                        <div class="tabs is-centered">
+                            <ul>
+                                <li class="tab-link is-active" data-tab="t1"><a>Red Side</a></li>
+                                <li class="tab-link" data-tab="t2"><a>Blue Side</a></li>
+                                <li class="tab-link" data-tab="t3"><a>Power Cells</a></li>
+                            </ul>
+                        </div>
+                        <div id="tab-a1" data-content="t1"  class="navtab-content is-active">
+                            <img class="featured-image" src="img/display/feature-2.png" alt="">
+                        </div>
+                        <div id="tab-a2" data-content="t2" class="navtab-content">
+                            <p>Lorem ipsum dolor sit amet, ad blandit intellegam cum, nulla legere possit id vim, clita nullam graecis duo ne. Ea utamur tacimates reprehendunt est, ut ponderum abhorreant pri, facete regione cotidieque cu mea. Vis at duis veritus incorrupte, saperet propriae corrumpit cu eam.</p>
+                        </div>
+                        <div id="tab-a3" data-content="t3"  class="navtab-content">
+                            <p>Nam cibo consul insolens ei, at commune perfecto qui, ad vel summo vivendo. Ea est nostrum urbanitas accommodare. Ne mea esse possim quaerendum, sumo nullam disputando sit cu. Ridens labore dicunt mea id</p>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+
+
+
+
+
+              <!-- Feature -->
+              <div class="columns is-vcentered dark">
+                <div class="column is-7 has-text-centered is-hidden-desktop is-hidden-tablet">
+                    <img class="featured-image" src="assets/img/illustrations/UI/feature-2.png" alt="">
+                </div>
+                
+                <div class="column is-5">
+                    <h2 class="title section-title is-demo bordered dark-text no-margin">Newsletter</h2>
+                    <div class="title-divider"></div>
+                    <p class="section-feature-description">Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum
+                        inermis
+                        iudicabit. Ex vidit fierent hendrerit eum, sed stet periculis ut. Vis in probo decore labitur.
+                    </p>
+
+
+                  
+
+
+
+                </div>
+                <div class="column is-7 has-text-centered is-hidden-mobile">
+                    <div class="navigation-tabs animated-tabs simple-tabs">
+                        <div class="tabs is-centered">
+                            <ul>
+                                <li class="tab-link is-active" data-tab="t1"><a>Red Side</a></li>
+                                <li class="tab-link" data-tab="t2"><a>Blue Side</a></li>
+                                <li class="tab-link" data-tab="t3"><a>Power Cells</a></li>
+                            </ul>
+                        </div>
+                        <div id="tab-a1" data-content="t1"  class="navtab-content is-active">
+                            <img class="featured-image" src="img/display/feature-2.png" alt="">
+                        </div>
+                        <div id="tab-a2" data-content="t2" class="navtab-content">
+                            <p>Lorem ipsum dolor sit amet, ad blandit intellegam cum, nulla legere possit id vim, clita nullam graecis duo ne. Ea utamur tacimates reprehendunt est, ut ponderum abhorreant pri, facete regione cotidieque cu mea. Vis at duis veritus incorrupte, saperet propriae corrumpit cu eam.</p>
+                        </div>
+                        <div id="tab-a3" data-content="t3"  class="navtab-content">
+                            <p>Nam cibo consul insolens ei, at commune perfecto qui, ad vel summo vivendo. Ea est nostrum urbanitas accommodare. Ne mea esse possim quaerendum, sumo nullam disputando sit cu. Ridens labore dicunt mea id</p>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+
+
+
+
         </div>
     </div>
 
-    <div class="section">
-        <div class="container">
-            <div class="section-title has-text-centered">
-                <h2 class="title is-2">Why our customers choose Bulkit</h2>
-                <h4>For those with the taste of excellence.</h4>
-            </div>
-
-            <div class="carousel-wrap">
-                <div class="testimonials-solo-carousel">
-                    <!--Carousel item-->
-                    <div class="testimonial-item">
-                        <div class="left-side">
-                            <div class="avatar-container">
-                                <img class="dots is-top" src="assets/img/shapes/dots.svg" alt="">
-                                <img class="avatar" src="https://via.placeholder.com/250x250" alt="" data-demo-src="assets/img/photos/1.jpg">
-                                <img class="dots is-bottom" src="assets/img/shapes/dots.svg" alt="">
-                            </div>
-                            <div class="avatar-info">
-                                <h3>Mike Kascinczki</h3>
-                                <p>CEO</p>
-                            </div>
-                        </div>
-                        <div class="right-side">
-                            <img class="company-logo" src="assets/img/logos/custom/infinite.svg" alt="">
-                            <div class="testimonial-content">
-                                <p class="text-content">
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Invidiosum nomen est, infame,
-                                    suspectum. Utilitatis causa
-                                    amicitia est quaesita. Non laboro, inquit, de nomine. Duo Reges: constructio interrete.
-                                    Aliter homines, aliter
-                                    philosophos loqui putas oportere?"
-                                </p>
-                                <a class="learn-more" href="#">
-                                    <span>Learn More</span>
-                                    <i class="sl sl-icon-arrow-right-circle"></i>
-                                </a>
-                                <div class="metrics">
-                                    <div class="metric">
-                                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="50" height="33" xmlns="http://www.w3.org/2000/svg">
-                                            <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <circle class="circle-chart__circle" stroke="#00acc1" stroke-width="2" stroke-dasharray="90,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <circle class="circle-chart__circle" stroke="#1e78d7" stroke-width="2" stroke-dasharray="30,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <g class="circle-chart__info">
-                                            </g>
-                                        </svg>
-                                        <div class="meta">
-                                            <span>More Sales</span>
-                                            <span>Increased by 90%</span>
-                                        </div>
-                                    </div>
-                                    <div class="metric">
-                                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="50" height="33" xmlns="http://www.w3.org/2000/svg">
-                                            <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <circle class="circle-chart__circle" stroke="#00acc1" stroke-width="2" stroke-dasharray="60,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <circle class="circle-chart__circle" stroke="#1e78d7" stroke-width="2" stroke-dasharray="30,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <g class="circle-chart__info">
-                                            </g>
-                                        </svg>
-                                        <div class="meta">
-                                            <span>More Conversions</span>
-                                            <span>Increased by 60%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Carousel item-->
-                    <div class="testimonial-item">
-                        <div class="left-side">
-                            <div class="avatar-container">
-                                <img class="dots is-top" src="assets/img/shapes/dots.svg" alt="">
-                                <img class="avatar" src="https://via.placeholder.com/250x250" alt="" data-demo-src="assets/img/photos/2.jpg">
-                                <img class="dots is-bottom" src="assets/img/shapes/dots.svg" alt="">
-                            </div>
-                            <div class="avatar-info">
-                                <h3>Andrew Brennan</h3>
-                                <p>CEO</p>
-                            </div>
-                        </div>
-                        <div class="right-side">
-                            <img class="company-logo" src="assets/img/logos/custom/covenant.svg" alt="">
-                            <div class="testimonial-content">
-                                <p class="text-content">
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Invidiosum nomen est, infame,
-                                    suspectum. Utilitatis causa
-                                    amicitia est quaesita. Non laboro, inquit, de nomine. Duo Reges: constructio interrete.
-                                    Aliter homines,
-                                    aliter philosophos loqui putas oportere?"
-                                </p>
-                                <a class="learn-more" href="#">
-                                    <span>Learn More</span>
-                                    <i class="sl sl-icon-arrow-right-circle"></i>
-                                </a>
-                                <div class="metrics">
-                                    <div class="metric">
-                                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="50" height="33" xmlns="http://www.w3.org/2000/svg">
-                                            <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <circle class="circle-chart__circle" stroke="#00acc1" stroke-width="2" stroke-dasharray="90,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <circle class="circle-chart__circle" stroke="#1e78d7" stroke-width="2" stroke-dasharray="30,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <g class="circle-chart__info">
-                                            </g>
-                                        </svg>
-                                        <div class="meta">
-                                            <span>More Sales</span>
-                                            <span>Increased by 90%</span>
-                                        </div>
-                                    </div>
-                                    <div class="metric">
-                                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="50" height="33" xmlns="http://www.w3.org/2000/svg">
-                                            <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <circle class="circle-chart__circle" stroke="#00acc1" stroke-width="2" stroke-dasharray="60,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <circle class="circle-chart__circle" stroke="#1e78d7" stroke-width="2" stroke-dasharray="30,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <g class="circle-chart__info">
-                                            </g>
-                                        </svg>
-                                        <div class="meta">
-                                            <span>More Conversions</span>
-                                            <span>Increased by 60%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Carousel item-->
-                    <div class="testimonial-item">
-                        <div class="left-side">
-                            <div class="avatar-container">
-                                <img class="dots is-top" src="assets/img/shapes/dots.svg" alt="">
-                                <img class="avatar" src="https://via.placeholder.com/250x250" alt="" data-demo-src="assets/img/photos/3.jpg">
-                                <img class="dots is-bottom" src="assets/img/shapes/dots.svg" alt="">
-                            </div>
-                            <div class="avatar-info">
-                                <h3>Natalia Simonova</h3>
-                                <p>Marketing</p>
-                            </div>
-                        </div>
-                        <div class="right-side">
-                            <img class="company-logo" src="assets/img/logos/custom/grubspot.svg" alt="">
-                            <div class="testimonial-content">
-                                <p class="text-content">
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Invidiosum nomen est, infame,
-                                    suspectum.
-                                    Utilitatis causa
-                                    amicitia est quaesita. Non laboro, inquit, de nomine. Duo Reges: constructio interrete.
-                                    Aliter homines,
-                                    aliter philosophos loqui putas oportere?"
-                                </p>
-                                <a class="learn-more" href="#">
-                                    <span>Learn More</span>
-                                    <i class="sl sl-icon-arrow-right-circle"></i>
-                                </a>
-                                <div class="metrics">
-                                    <div class="metric">
-                                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="50" height="33" xmlns="http://www.w3.org/2000/svg">
-                                            <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <circle class="circle-chart__circle" stroke="#00acc1" stroke-width="2" stroke-dasharray="90,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <circle class="circle-chart__circle" stroke="#1e78d7" stroke-width="2" stroke-dasharray="30,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <g class="circle-chart__info">
-                                            </g>
-                                        </svg>
-                                        <div class="meta">
-                                            <span>More Sales</span>
-                                            <span>Increased by 90%</span>
-                                        </div>
-                                    </div>
-                                    <div class="metric">
-                                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="50" height="33" xmlns="http://www.w3.org/2000/svg">
-                                            <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <circle class="circle-chart__circle" stroke="#00acc1" stroke-width="2" stroke-dasharray="60,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <circle class="circle-chart__circle" stroke="#1e78d7" stroke-width="2" stroke-dasharray="30,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <g class="circle-chart__info">
-                                            </g>
-                                        </svg>
-                                        <div class="meta">
-                                            <span>More Conversions</span>
-                                            <span>Increased by 60%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Carousel item-->
-                    <div class="testimonial-item">
-                        <div class="left-side">
-                            <div class="avatar-container">
-                                <img class="dots is-top" src="assets/img/shapes/dots.svg" alt="">
-                                <img class="avatar" src="https://via.placeholder.com/250x250" alt="" data-demo-src="assets/img/photos/4.jpg">
-                                <img class="dots is-bottom" src="assets/img/shapes/dots.svg" alt="">
-                            </div>
-                            <div class="avatar-info">
-                                <h3>Norbert Ryan</h3>
-                                <p>CFO</p>
-                            </div>
-                        </div>
-                        <div class="right-side">
-                            <img class="company-logo" src="assets/img/logos/custom/phasekit.svg" alt="">
-                            <div class="testimonial-content">
-                                <p class="text-content">
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Invidiosum nomen est, infame,
-                                    suspectum.
-                                    Utilitatis causa
-                                    amicitia est quaesita. Non laboro, inquit, de nomine. Duo Reges: constructio interrete.
-                                    Aliter homines,
-                                    aliter philosophos loqui putas oportere?"
-                                </p>
-                                <a class="learn-more" href="#">
-                                    <span>Learn More</span>
-                                    <i class="sl sl-icon-arrow-right-circle"></i>
-                                </a>
-                                <div class="metrics">
-                                    <div class="metric">
-                                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="50" height="33" xmlns="http://www.w3.org/2000/svg">
-                                            <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <circle class="circle-chart__circle" stroke="#00acc1" stroke-width="2" stroke-dasharray="90,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <circle class="circle-chart__circle" stroke="#1e78d7" stroke-width="2" stroke-dasharray="30,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <g class="circle-chart__info">
-                                            </g>
-                                        </svg>
-                                        <div class="meta">
-                                            <span>More Sales</span>
-                                            <span>Increased by 90%</span>
-                                        </div>
-                                    </div>
-                                    <div class="metric">
-                                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="50" height="33" xmlns="http://www.w3.org/2000/svg">
-                                            <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <circle class="circle-chart__circle" stroke="#00acc1" stroke-width="2" stroke-dasharray="60,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <circle class="circle-chart__circle" stroke="#1e78d7" stroke-width="2" stroke-dasharray="30,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <g class="circle-chart__info">
-                                            </g>
-                                        </svg>
-                                        <div class="meta">
-                                            <span>More Conversions</span>
-                                            <span>Increased by 60%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--Carousel footer-->
-                <div class="carousel-footer">
-                    <div class="rating-block">
-                        <div class="stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
-                        <p>4.9 Rating based on 849 votes</p>
-                    </div>
-                    <div class="support-block">
-                        <i class="fa fa-comment"></i>
-                        <div class="meta">
-                            <span>Dedicated Support Team</span>
-                            <span>2 min response time in live chat</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="section">
-        <div class="container">
-            <div class="section-title has-text-centered">
-                <h2 class="title is-2">Frequently Asked Questions</h2>
-                <h4>Everything you need to know to get started.</h4>
-            </div>
-
-            <div class="faq-wrapper">
-                <div class="columns">
-                    <div class="column is-5 is-offset-1">
-                        <!--Faq Block-->
-                        <div class="faq-block">
-                            <div class="block-header">
-                                <div class="header-icon">
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <h3>How can I properly setup an account?</h3>
-                            </div>
-                            <div class="block-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Invidiosum nomen est, infame,
-                                    suspectum. Utilitatis causa
-                                    amicitia est quaesita. Non laboro, inquit, de nomine. Duo Reges: constructio interrete.
-                                    Aliter homines, aliter
-                                    philosophos loqui putas oportere?</p>
-                            </div>
-                        </div>
-                        <!--Faq Block-->
-                        <div class="faq-block">
-                            <div class="block-header">
-                                <div class="header-icon">
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <h3>Can I integrate my Mailchimp lists with my account and segment subscribers?</h3>
-                            </div>
-                            <div class="block-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Invidiosum nomen est, infame,
-                                    suspectum. Utilitatis
-                                    causa
-                                    amicitia est quaesita. Non laboro, inquit, de nomine. Duo Reges: constructio interrete.
-                                    Aliter homines,
-                                    aliter
-                                    philosophos loqui putas oportere?</p>
-                            </div>
-                        </div>
-                        <!--Faq Block-->
-                        <div class="faq-block">
-                            <div class="block-header">
-                                <div class="header-icon">
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <h3>Can I integrate with other CRM software and directly pull records from the database.?
-                                </h3>
-                            </div>
-                            <div class="block-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Invidiosum nomen est, infame,
-                                    suspectum. Utilitatis
-                                    causa
-                                    amicitia est quaesita. Non laboro, inquit, de nomine. Duo Reges: constructio interrete.
-                                    Aliter homines,
-                                    aliter
-                                    philosophos loqui putas oportere?</p>
-                            </div>
-                        </div>
-                        <!--Faq Block-->
-                        <div class="faq-block">
-                            <div class="block-header">
-                                <div class="header-icon">
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <h3>Can I change my plan after sign up?</h3>
-                            </div>
-                            <div class="block-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Invidiosum nomen est, infame,
-                                    suspectum. Utilitatis
-                                    causa
-                                    amicitia est quaesita. Non laboro, inquit, de nomine. Duo Reges: constructio interrete.
-                                    Aliter homines,
-                                    aliter
-                                    philosophos loqui putas oportere?</p>
-                            </div>
-                        </div>
-                        <!--Faq Block-->
-                        <div class="faq-block">
-                            <div class="block-header">
-                                <div class="header-icon">
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <h3>Can I ask for specific features?</h3>
-                            </div>
-                            <div class="block-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Invidiosum nomen est, infame,
-                                    suspectum. Utilitatis
-                                    causa
-                                    amicitia est quaesita. Non laboro, inquit, de nomine. Duo Reges: constructio interrete.
-                                    Aliter homines,
-                                    aliter
-                                    philosophos loqui putas oportere?</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column is-5">
-                        <!--Faq Block-->
-                        <div class="faq-block">
-                            <div class="block-header">
-                                <div class="header-icon">
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <h3>Can I invite people who don't own an account yet to my team?</h3>
-                            </div>
-                            <div class="block-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Invidiosum nomen est, infame,
-                                    suspectum.
-                                    Utilitatis causa
-                                    amicitia est quaesita. Non laboro, inquit, de nomine. Duo Reges: constructio interrete.
-                                    Aliter homines,
-                                    aliter
-                                    philosophos loqui putas oportere?</p>
-                            </div>
-                        </div>
-                        <!--Faq Block-->
-                        <div class="faq-block">
-                            <div class="block-header">
-                                <div class="header-icon">
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <h3>How much records are allowed to process monthly when on the free plan?</h3>
-                            </div>
-                            <div class="block-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Invidiosum nomen est, infame,
-                                    suspectum.
-                                    Utilitatis
-                                    causa
-                                    amicitia est quaesita. Non laboro, inquit, de nomine. Duo Reges: constructio interrete.
-                                    Aliter homines,
-                                    aliter
-                                    philosophos loqui putas oportere?</p>
-                            </div>
-                        </div>
-                        <!--Faq Block-->
-                        <div class="faq-block">
-                            <div class="block-header">
-                                <div class="header-icon">
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <h3>Do you make custom implementations?</h3>
-                            </div>
-                            <div class="block-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Invidiosum nomen est, infame,
-                                    suspectum.
-                                    Utilitatis
-                                    causa
-                                    amicitia est quaesita. Non laboro, inquit, de nomine. Duo Reges: constructio interrete.
-                                    Aliter homines,
-                                    aliter
-                                    philosophos loqui putas oportere?</p>
-                            </div>
-                        </div>
-                        <!--Faq Block-->
-                        <div class="faq-block">
-                            <div class="block-header">
-                                <div class="header-icon">
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <h3>Are allowed to sign up for more than one account with the same email address?</h3>
-                            </div>
-                            <div class="block-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Invidiosum nomen est, infame,
-                                    suspectum.
-                                    Utilitatis
-                                    causa
-                                    amicitia est quaesita. Non laboro, inquit, de nomine. Duo Reges: constructio interrete.
-                                    Aliter homines,
-                                    aliter
-                                    philosophos loqui putas oportere?</p>
-                            </div>
-                        </div>
-                        <!--Faq Block-->
-                        <div class="faq-block">
-                            <div class="block-header">
-                                <div class="header-icon">
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <h3>Can we manage user roles?</h3>
-                            </div>
-                            <div class="block-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Invidiosum nomen est, infame,
-                                    suspectum.
-                                    Utilitatis
-                                    causa
-                                    amicitia est quaesita. Non laboro, inquit, de nomine. Duo Reges: constructio interrete.
-                                    Aliter homines,
-                                    aliter
-                                    philosophos loqui putas oportere?</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 
     <!-- Footer -->
     <!-- Simple light footer -->
@@ -1021,12 +373,10 @@
             <div class="footer-head">
                 <div class="head-text">
                     <h3>Ready to get started?</h3>
-                    <p>Create your free account now</p>
                 </div>
                 <div class="head-action">
                     <div class="buttons">
-                        <a class="button primary-btn is-rounded raised action-button">Try it free</a>
-                        <a class="button chat-button">Chat with us</a>
+                        <a class="button primary-btn is-rounded raised action-button">Sign up For Beta</a>
                     </div>
                 </div>
             </div>
@@ -1403,12 +753,45 @@
     </div>
     <!-- /Side navigation -->
     <!-- Back To Top Button -->
-    <div id="backtotop"><a href="#"></a></div> <!-- Concatenated jQuery and plugins -->
-    <script src="assets/js/app.js"></script>
-
+    <div id="backtotop" class="visible"><a href="#top">Scroll Top</a></div> <!-- Concatenated jQuery and plugins -->
+  
     <!-- Bulkit js -->
-    <script src="assets/js/functions.js"></script>
-    <script src="assets/js/main.js"></script>
+    
+    <script src="js/jquery.js"></script>
+   
+
+    <script>
+         $('[data-tab]').on('click', function (e) {
+      console.log(this)
+      $(this).addClass('is-active').siblings('[data-tab]').removeClass('is-active')
+    console.log($('[data-content=' + $(this).data('tab') + ']'))
+    var tabContent = $('[data-content=' + $(this).data('tab') + ']')
+    tabContent.addClass('hello').addClass('is-active').siblings('[data-content]').removeClass('is-active')
+   
+})
+
+
+$(document).ready(function () {
+
+// Define the menu we are working with
+var menu = $('#nav');
+// $(menu).removeClass('is-faded');
+// $(menu).addClass('is-faded');
+
+$(window).on("scroll",function(){
+  	var wn = $(window).scrollTop();
+    if(wn > 120){
+    	$(menu).removeClass('is-faded');
+    }
+    else{
+    	$(menu).addClass('is-faded');
+    }
+  });
+});
+
+
+    </script>
+ 
 </body>
 
 </html>

@@ -8614,7 +8614,40 @@
 
 .video-wrapper {
     overflow: hidden;
-    max-width: 50%;
+
     margin: 0 auto;
  }
- 
+ .padding-wrapper {
+     padding: 25px;
+     position: relative;
+     background-color: #c2c2c2;
+     width: 60%;
+     margin: 0 auto;
+ }
+ .video-back {
+   
+    display: inline-block;
+
+    z-index: -2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    left: 15%;
+ }
+ .dots-back {
+    vertical-align: middle;
+    display: inline-block;
+
+    z-index: -1;
+    left: 5%;
+    padding-top: 250px;
+}
+.img-vid {
+    position: absolute;
+    
+}
+.pad-vid {
+    padding-top: 20px;
+    padding-bottom: 150px;
+}

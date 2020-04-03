@@ -21,8 +21,8 @@
     color:#fff
    }
    /*! _layout-utils.scss | Bulkit | CSS Ninja *//* line 23, src/assets/scss/layout/_layout-utils.scss */body {
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    overflow:hidden !important
+    overflow:hidden !important;
+    background: #1e2645;
    }
    /* line 28, src/assets/scss/layout/_layout-utils.scss */a,
    a:active,
@@ -684,7 +684,7 @@
     margin:10px 0;
     width:80px;
     height:5px;
-    background:#4A00E0
+    background:#ff5e4d
    }
    /* line 188, src/assets/scss/layout/_layout-sections.scss */.section .title-divider.is-right {
     margin-left:auto
@@ -699,7 +699,7 @@
     margin-bottom:0 !important
    }
    /* line 203, src/assets/scss/layout/_layout-sections.scss */.section .section-feature-description {
-    color:#878787
+    color:#fff
    }
    /* line 207, src/assets/scss/layout/_layout-sections.scss */.section .media.icon-box {
     border-top:none !important
@@ -8651,3 +8651,23 @@
     padding-top: 20px;
     padding-bottom: 150px;
 }
+.huge-pb {
+    padding-bottom:100px
+   }
+
+
+.hero.hero-wavy:before {
+    background:transparent url(../img/shapes/wavy-alt.png) no-repeat scroll 0 bottom/100% auto;
+    content:"";
+    height:321px;
+    width:100%;
+    z-index:1 !important;
+    position:absolute;
+    bottom:-1px;
+    left:0
+   }
+   .is-top {
+       z-index: 10;
+       padding-top: 200px;
+   }
+   

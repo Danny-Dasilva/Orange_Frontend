@@ -8789,5 +8789,20 @@
         background-size: cover;
         background-position: center; 
     }
+    #demo-video {
+        top: 16.5% !important;
+    }
     
+}
+
+#demo-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    left: 21.9%;
+    width: 54%;
+    height: 100%;
+    top: 13%;
+    max-height: 100%;
+        
 }

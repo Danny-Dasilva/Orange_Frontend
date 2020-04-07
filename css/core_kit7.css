@@ -5989,7 +5989,7 @@
    }
    /* line 111, src/assets/scss/pages/_pages-landing-kit7.scss */.hero.rounded-hero .hero-body .hero-mockup {
     display:block;
-    max-width:740px;
+    max-width:800px;
     margin:0 auto;
 
     -webkit-transform:translateY(10px);

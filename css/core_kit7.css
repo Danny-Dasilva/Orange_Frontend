@@ -796,8 +796,15 @@
     color:#fff
    }
    /* line 34, src/assets/scss/layout/_layout-hero.scss */.hero.is-theme-primary .subtitle {
-    color:#fff
+       padding-top: 15px;
+    color:#fff;
+    font-size:  22px
    }
+   .hero.is-theme-primary .subtitle span {
+            
+        color:#ff5e4d
+        }
+
    /* line 39, src/assets/scss/layout/_layout-hero.scss */.hero.is-theme-secondary {
     background-color:#23a6d5
    }
@@ -6003,7 +6010,8 @@
     display:flex;
     -webkit-box-pack:center;
     -ms-flex-pack:center;
-    justify-content:center
+    justify-content:center;
+    padding: 15px;
    }
    /* line 132, src/assets/scss/pages/_pages-landing-kit7.scss */.is-hero-title {
     z-index:2
@@ -8686,7 +8694,7 @@
 
 
 .hero.hero-wavy:before {
-    background:transparent url(../img/shapes/wavy-alt.png) no-repeat scroll 0 bottom/100% auto;
+    background:transparent url(../img/shapes/wavy-alt.svg) no-repeat scroll 0 bottom/100% auto;
     content:"";
     height:321px;
     width:100%;
@@ -8697,7 +8705,7 @@
    }
    .is-top {
        z-index: 10;
-       padding-top: 200px;
+       padding-top: 300px;
    }
    
    .browser {

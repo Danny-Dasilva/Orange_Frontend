@@ -22,7 +22,7 @@
    }
    /*! _layout-utils.scss | Bulkit | CSS Ninja *//* line 23, src/assets/scss/layout/_layout-utils.scss */body {
     overflow:hidden !important;
-    background: #1e2645;
+    background: #0b0e1a;
    }
    /* line 28, src/assets/scss/layout/_layout-utils.scss */a,
    a:active,
@@ -789,7 +789,8 @@
     background-size:cover !important
    }
    /* line 29, src/assets/scss/layout/_layout-hero.scss */.hero.is-theme-primary {
-    background-color:#4A00E0
+    background-color:#000
+    
    }
    /* line 31, src/assets/scss/layout/_layout-hero.scss */.hero.is-theme-primary .title {
     color:#fff
@@ -5985,12 +5986,13 @@
     display:block;
     max-width:740px;
     margin:0 auto;
+
     -webkit-transform:translateY(10px);
     transform:translateY(10px);
     /* opacity:0; */
-    border-radius:12px;
-    -webkit-box-shadow:-1px 3px 15px 0 rgba(0,0,0,0.06);
-    box-shadow:-1px 3px 15px 0 rgba(0,0,0,0.06);
+    border-radius:20px;
+    -webkit-box-shadow:-1px 3px 15px 0 rgba(0,0,0,1);
+    box-shadow:-1px 3px 15px 0 rgba(0,0,0,1);
     pointer-events:none;
     -webkit-transition:all .4s;
     transition:all .4s;
@@ -7462,6 +7464,7 @@
     }
     /* line 1687, src/assets/scss/pages/_pages-landing-kit7.scss */.rounded-hero .hero-body .hero-mockup {
      max-width:610px !important
+
     }
     /* line 1694, src/assets/scss/pages/_pages-landing-kit7.scss */.section .featured-image {
      max-width:540px !important;
@@ -8550,7 +8553,10 @@
 
 .hero.is-theme-primary,
 .section.is-theme-primary {
- background:linear-gradient(45deg, red, #6441A5);
+ 
+ background-image:       		url("../img/gif/ah.gif"), url(../img/gif/ah.gif);
+    background-repeat: repeat;
+
 }
 
 
@@ -8671,3 +8677,70 @@
        padding-top: 200px;
    }
    
+   .browser {
+    font-size: 18px;
+      padding: 2.1em 0 0 0;
+      border-radius: 20px;
+    
+      display: inline-block;
+      position: relative;
+    overflow: hidden;
+    box-shadow: 0 0.25em 0.9em -0.1em rgba(0,0,0,.3);
+  }
+  
+  .browser .browser-navigation-bar {
+      display: block;
+    box-sizing: border-box;
+      height: 2.1em;
+      position: absolute;
+      top: 0;
+    padding: 0.3em;
+    width: 100%;
+    background: linear-gradient(to bottom, #242424 0%, #141414 100%);
+   
+  }
+   
+  .browser i {
+    display: inline-block;
+      height: 0.7em;
+      width: 0.7em;
+      border-radius: 0.45em;
+      background-color: #eee;
+      margin: 0.4em 0.15em;
+  }
+  
+  .browser i:nth-child(1) {background-color: rgb(255, 86, 79)}
+  
+  .browser i:nth-child(1):hover {background-color: rgb(255, 20, 25)}
+  
+  .browser i:nth-child(2) {background-color: rgb(255, 183, 42)}
+  
+  .browser i:nth-child(2):hover {background-color: rgb(230, 175, 42)}
+  
+  .browser i:nth-child(3) {background-color: rgb(37, 198, 58)}
+  
+  .browser i:nth-child(3):hover {background-color: rgb(10, 225, 10)}
+  
+  .browser input {
+    font-size: 0.75em;
+    vertical-align: top;
+    display: inline-block;
+      height: 1.6em;
+    color: #141414;
+      width: calc(100% - 6em);
+    border: 0.1em solid #141414;
+      border-radius: 0.25em;
+      background-color: #eee;
+    margin: 0.1em;
+    padding: 0 0.4em;
+  }
+  
+  .browser-container {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+    text-align: center;
+  }
+ 

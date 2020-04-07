@@ -70,7 +70,7 @@
       .message:not(:last-child),
       .pagination:not(:last-child),
       .tabs:not(:last-child) {
-       margin-bottom:1.5rem
+    
       }
       /* line 235, src/assets/sass/sass/utilities/mixins.sass */.delete,
       .modal-close {
@@ -461,7 +461,8 @@
       }
       /* line 96, src/assets/sass/sass/base/generic.sass */img {
        height:auto;
-       max-width:100%
+       max-width:100%;
+       display: block;
       }
       /* line 100, src/assets/sass/sass/base/generic.sass */input[type="checkbox"],
       input[type="radio"] {
@@ -7601,15 +7602,15 @@
        vertical-align:top
       }
       /* line 51, src/assets/sass/sass/components/tabs.sass */.tabs a:hover {
-       border-bottom-color:#363636;
-       color:#363636
+       border-bottom-color:#ccc;
+       color:#ccc
       }
       /* line 54, src/assets/sass/sass/components/tabs.sass */.tabs li {
        display:block
       }
       /* line 57, src/assets/sass/sass/components/tabs.sass */.tabs li.is-active a {
-       border-bottom-color:#3273dc;
-       color:#3273dc
+       border-bottom-color:#ff5e4d;
+       color:#ff5e4d
       }
       /* line 60, src/assets/sass/sass/components/tabs.sass */.tabs ul {
        -webkit-box-align:center;

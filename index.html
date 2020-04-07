@@ -20,8 +20,8 @@
             <div class="container">
                 <div class="navbar-brand">
                     <a class="navbar-item" href="/">
-                        <img class="light-logo" src="assets/img/logo/bulkit-light.svg" width="28" height="28" alt="">
-                        <img class="dark-logo is-hidden" src="assets/img/logo/bulkit-dark.svg" width="28" height="28" alt="">
+                        <img class="light-logo" src="img/logos/logo-white.svg" width="28" height="28" alt="">
+                        <img class="dark-logo is-hidden" src="img/logos/logo-black.svg" width="28" height="28" alt="">
                     </a>
     
                    
@@ -58,9 +58,7 @@
         </nav>
 
         <div >
-            <div class="header-inner">
-                <img class="cut-circle" src="assets/img/shapes/cut-circle.svg" alt="">
-            </div>
+           
         </div>
 
         <div class="hero-body has-text-centered">
@@ -148,11 +146,7 @@
                     </div>
                 </div>
 
-                <!--Mockup wrapper-->
-                <div class="mockup-wrapper">
-                    <div class="square square-3"></div>
-                    <img src="assets/img/illustrations/UI/marketing-app.png" alt="">
-                </div>
+              
             </div>
         </div>
     </div>
@@ -160,7 +154,7 @@
     <div class="section">
         <div class="container">
             <!-- Feature -->
-            <div class="columns is-vcentered dark">
+            <div class="columns is-vcentered">
                 
                 <div class="column is-5">
                     <h3 class="title section-title is-demo bordered light-text no-margin">High Speed Video Encoding</h3>
@@ -240,6 +234,10 @@
                         
                         
                         </div>
+
+
+
+                        
                     </div>
 
                     
@@ -256,22 +254,25 @@
 
 
                 <div class="column is-7 has-text-centered is-hidden-desktop is-hidden-tablet">
+                    <div class="navigation-tabs animated-tabs simple-tabs">
                     <div class="tabs is-centered">
                         <ul>
-                            <li class="tab-link is-active" data-tab="t1"><a>Red Side</a></li>
-                            <li class="tab-link" data-tab="t2"><a>Blue Side</a></li>
-                            <li class="tab-link" data-tab="t3"><a>Power Cells</a></li>
+                            <li class="tab-link is-active" data-tab="mt1"><a>Red Side</a></li>
+                            <li class="tab-link" data-tab="mt2"><a>Blue Side</a></li>
+                            <li class="tab-link" data-tab="mt3"><a>Power Cells</a></li>
                         </ul>
 
                     </div>
-                    <div id="tab-a1" data-content="t1"  class="navtab-content is-active">
-                        <img class="featured-image" src="img/display/feature-2.png" alt="">
+                    <div id="mtab-a1" data-content="mt1"  class="navtab-content is-active">
+                        <img class="" src="img/video/1_crop.png" alt="">
                     </div>
-                    <div id="tab-a2" data-content="t2" class="navtab-content">
-                        <p>Lorem ipsum dolor sit amet, ad blandit intellegam cum, nulla legere possit id vim, clita nullam graecis duo ne. Ea utamur tacimates reprehendunt est, ut ponderum abhorreant pri, facete regione cotidieque cu mea. Vis at duis veritus incorrupte, saperet propriae corrumpit cu eam.</p>
+                    <div id="mtab-a2" data-content="mt2" class="navtab-content">
+                        <img class="" src="img/video/1_crop.png" alt="">    
                     </div>
-                    <div id="tab-a3" data-content="t3"  class="navtab-content">
-                        <p>Nam cibo consul insolens ei, at commune perfecto qui, ad vel summo vivendo. Ea est nostrum urbanitas accommodare. Ne mea esse possim quaerendum, sumo nullam disputando sit cu. Ridens labore dicunt mea id</p>
+                    <div id="mtab-a3" data-content="mt3"  class="navtab-content">
+                        
+                        <img class="" src="img/video/1_crop.png" alt="">
+                    </div>
                     </div>
 
                 </div>
@@ -281,7 +282,7 @@
               <!-- Feature -->
               <div class="columns is-vcentered">
                 <div class="column is-7 has-text-centered is-hidden-desktop is-hidden-tablet">
-                    <img class="featured-image" src="assets/img/illustrations/UI/feature-2.png" alt="">
+           <!-- ehh -->
                 </div>
                 
                 <div class="column is-12">
@@ -319,7 +320,7 @@
             </div>
 
                 <!-- Feature -->
-                <div class="columns is-vcentered dark">
+                <div class="columns is-vcentered">
                     <div class="column is-7 has-text-centered is-hidden-desktop is-hidden-tablet">
                         <img class="featured-image" src="assets/img/illustrations/UI/feature-2.png" alt="">
                     </div>
@@ -830,9 +831,13 @@
       $(this).addClass('is-active').siblings('[data-tab]').removeClass('is-active')
     console.log($('[data-content=' + $(this).data('tab') + ']'))
     var tabContent = $('[data-content=' + $(this).data('tab') + ']')
-    tabContent.addClass('hello').addClass('is-active').siblings('[data-content]').removeClass('is-active')
+    tabContent.addClass('is-active').siblings('[data-content]').removeClass('is-active')
    
 })
+
+
+
+
 
 
 $(document).ready(function () {

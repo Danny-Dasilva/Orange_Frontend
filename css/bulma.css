@@ -3782,7 +3782,7 @@
        margin-top:-0.75rem
       }
       /* line 46, src/assets/sass/sass/elements/title.sass */.title:not(.is-spaced)+.subtitle {
-       margin-top:-1.25rem
+       /* margin-top:-1.25rem */
       }
       /* line 51, src/assets/sass/sass/elements/title.sass */.title.is-1 {
        font-size:3rem
@@ -6811,7 +6811,7 @@
        flex-shrink:0
       }
       /* line 185, src/assets/sass/sass/components/navbar.sass */.navbar-item img {
-       max-height:1.75rem
+       max-height:2.5rem
       }
       /* line 187, src/assets/sass/sass/components/navbar.sass */.navbar-item.has-dropdown {
        padding:0

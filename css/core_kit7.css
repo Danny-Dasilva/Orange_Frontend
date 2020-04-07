@@ -8554,10 +8554,25 @@
 .hero.is-theme-primary,
 .section.is-theme-primary {
  
- background-image:       		url("../img/gif/ah.gif"), url(../img/gif/ah.gif);
-    background-repeat: repeat;
+ background-image:       		url("../img/gif/ahh.gif"), url(../img/gif/ahh.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
 
 }
+/* @media only screen and (max-width: 767px) {
+    .hero.is-theme-primary,
+    .section.is-theme-primary {
+     
+     background-image:       		url("../img/gif/ah.gif"), url(../img/gif/ah.gif);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        
+    
+    }
+} */
 
 
 /*! _hero.scss | Bulkit | CSS Ninja *//* line 22, src/assets/scss/layout/_layout-hero.scss */.hero.is-relative {

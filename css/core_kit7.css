@@ -5974,7 +5974,7 @@
    }
    /* line 85, src/assets/scss/pages/_pages-landing-kit7.scss */.hero.rounded-hero {
     position:relative;
-    z-index:3
+    /* z-index:3 */
    }
    /* line 102, src/assets/scss/pages/_pages-landing-kit7.scss */.hero.rounded-hero.is-active .hero-body .hero-mockup {
     -webkit-transform:translateY(0);
@@ -8554,10 +8554,10 @@
 .hero.is-theme-primary,
 .section.is-theme-primary {
  
- background-image:       		url("../img/gif/ahh.gif"), url(../img/gif/ahh.gif);
+ /* background-image:       		url("../img/gif/ahh.gif"), url(../img/gif/ahh.gif);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: cover; */
     
 
 }
@@ -8758,4 +8758,36 @@
     
     text-align: center;
   }
- 
+  #video {
+    position: absolute;
+    top: 0; left:0;
+    top: 0; left:0;
+    width: 100%; height: 100%; 
+    top: 0%;
+    max-height: 100%;
+    
+}
+@media (min-aspect-ratio: 16/9) {
+    #video {
+        width:100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    #video { 
+        width:auto;
+        height: 100%;
+    }
+}
+@media (max-width: 767px) {
+    #video {
+        display: none;
+        
+    }
+    .hero.is-theme-primary, .section.is-theme-primary {
+        background: url('../img/gif/background.png');
+        background-size: cover;
+        background-position: center; 
+    }
+    
+}

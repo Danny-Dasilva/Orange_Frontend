@@ -9103,7 +9103,10 @@
        /* line 460, src/assets/sass/sass/grid/columns.sass */.columns:not(.is-desktop) {
         display:-webkit-box;
         display:-ms-flexbox;
-        display:flex
+        display:flex;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
        }
       }
       @media screen and (min-width: 1024px) {

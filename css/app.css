@@ -770,8 +770,8 @@
     transform:scale(1, 1)
    }
    /* line 95, src/assets/scss/layout/_navbar.scss */.navbar .navbar-item .cta-button {
-    background:#241a3d;
-    border-color:#241a3d
+    background:#101025;
+    border-color:#101025
    }
    /* line 99, src/assets/scss/layout/_navbar.scss */.navbar .navbar-item .cta-button:hover {
     -webkit-box-shadow:0 14px 26px -12px rgba(255,85,85,0.42),0 4px 23px 0px rgba(0,0,0,0.12),0 8px 10px -5px rgba(255,85,85,0.2) !important !important;

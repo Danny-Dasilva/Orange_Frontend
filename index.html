@@ -214,7 +214,7 @@
                                 <img class="" src="img/video/1_crop.png" alt="">
                                 <div class="demo-vid">
                                     <video class = "vid" id="demo-video" poster="poster.JPG" autoplay muted loop>
-                                        <source src="img/video/red.mp4" type="video/mp4">
+                                        <source src="img/video/red_ai.mp4" type="video/mp4">
                                     </video>
             
             
@@ -238,7 +238,7 @@
                                 <img class="" src="img/video/1_crop.png" alt="">
                                 <div class="demo-vid">
                                     <video class = "vid" id="demo-video" poster="poster.JPG" autoplay muted loop>
-                                        <source src="img/video/blue.mp4" type="video/mp4">
+                                        <source src="img/video/blue_ai.mp4" type="video/mp4">
                                     </video>
             
             
@@ -263,7 +263,7 @@
                                     <img class="" src="img/video/1_crop.png" alt="">
                                     <div class="demo-vid">
                                         <video class = "vid" id="demo-video" poster="poster.JPG" autoplay muted loop>
-                                            <source src="img/video/ball_demo.mp4" type="video/mp4">
+                                            <source src="img/video/powercell.mp4" type="video/mp4">
                                         </video>
                 
                 
@@ -303,15 +303,22 @@
                         </ul>
 
                     </div>
-                    <div id="mtab-a1" data-content="mt1"  class="navtab-content is-active">
-                        <img class="" src="img/video/1_crop.png" alt="">
+                    <div id="mtab-a1" data-content="mt1"  class="navtab-content mobile-vid is-active">
+                        <video poster="poster.JPG" autoplay muted loop>
+                            <source src="img/video/red_ai.mp4" type="video/mp4">
+                        </video>
                     </div>
-                    <div id="mtab-a2" data-content="mt2" class="navtab-content">
-                        <img class="" src="img/video/1_crop.png" alt="">    
+                    <div id="mtab-a2" data-content="mt2" class="navtab-content mobile-vid">
+                        <video poster="poster.JPG" autoplay muted loop>
+                            <source src="img/video/blue_ai.mp4" type="video/mp4">
+                        </video>
                     </div>
-                    <div id="mtab-a3" data-content="mt3"  class="navtab-content">
+                    <div id="mtab-a3" data-content="mt3"  class="navtab-content mobile-vid">
                         
-                        <img class="" src="img/video/1_crop.png" alt="">
+                        <video poster="poster.JPG" autoplay muted loop>
+                            <source src="img/video/powercell_m.mp4" type="video/mp4">
+                        </video>
+                       
                     </div>
                     </div>
 
@@ -529,9 +536,12 @@
                               
                                 <div class="control">
                                                                         
-                                    <div class="range-slider">
-                                            <input id="range" class="range-slider__range" oninput="sliderChange(this.value)" type="range" value="60" min="0" max="120">
-                                          </div> 
+                                
+
+                                          <div class="range-slider">
+                                            <input class="slider__range" oninput="sliderChange(this.value)" 
+                                                id="white_balance" type="range" min="0" value="60"  max="120">
+                                        </div>
                                   
                                 </div>
 

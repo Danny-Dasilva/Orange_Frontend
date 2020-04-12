@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILEPATH="demo.mp4"
+FILEPATH="blue_ai_m.mp4"
 echo $FILEPATH
 TMPPATH=$(mktemp).mp4
 

@@ -6,11 +6,11 @@ from PIL import ImageFont, ImageDraw, Image
 import cv2 
   
   
-cap = cv2.VideoCapture('aaa.mp4') 
+cap = cv2.VideoCapture('demo.mp4') 
 frame_width = int(cap.get(3))
 frame_height = int(cap.get(4))
 
-out = cv2.VideoWriter('outpy.mp4',cv2.VideoWriter_fourcc('M','J','P','G'), 10, (frame_width,frame_height))
+out = cv2.VideoWriter('outpy.mp4',cv2.VideoWriter_fourcc('M','J','P','G'), 60, (frame_width,frame_height))
 
 	 
 while(cap.isOpened()): 

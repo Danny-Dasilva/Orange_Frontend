@@ -8870,8 +8870,121 @@
     height: 5rem;
 }
 
+/* step form */
+.steps-wrapper {
 
+    position: relative;
+    min-height: 390px;
+    padding: 40px;
+    background: #fff;
+    border: 1px solid #ededed;
+    border-radius: 6px;
+    -webkit-box-shadow: inset rgba(143,160,241,0.2) 0 0 0 1px,rgba(213,220,247,0.59) 0 10px 20px;
+    box-shadow: inset rgba(143,160,241,0.2) 0 0 0 1px,rgba(213,220,247,0.59) 0 10px 20px;
 
+}
+.steps {
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    min-height: 2rem;
+
+}
+.steps-wrapper .steps {
+
+    font-size: .9rem;
+
+}
+
+.steps .step-item:not(:first-child) {
+
+    -ms-flex-preferred-size: 1em;
+    flex-basis: 1em;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+
+}
+.steps-wrapper .steps .step-item:not(:first-child)::before {
+
+    content: " ";
+    display: block;
+    position: absolute;
+
+}
+.steps-wrapper .steps .step-item::before {
+
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #dbdbdb), color-stop(50%, #7F00FF));
+    background: linear-gradient(to left, #dbdbdb 50%, #7F00FF 50%);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-size: auto;
+    background-size: 200% 100%;
+    background-position: right bottom;
+
+}
+
+.steps .step-item .step-marker {
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 50%;
+    font-weight: 700;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #b5b5b5;
+    color: #fff;
+    border: 0.2em solid #fff;
+    z-index: 1;
+
+}
+.steps .step-item .step-marker {
+
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    left: calc(50% - 1rem);
+
+}
+.steps .step-item .step-details {
+
+    margin-top: 2rem;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-top: .2em;
+
+}
+.steps .step-item .step-details {
+
+    text-align: center;
+
+}
+.steps-wrapper .steps .steps-content {
+
+    padding-bottom: 50px;
+
+}
+.steps .steps-content {
+
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    margin: 2rem 0;
+
+}
 /* SLIDER */
 
 
@@ -8981,4 +9094,7 @@ input[type=range]::-ms-track {
 });
     border-color: transparent !important;
     color: transparent !important;
+}
+.spacer {
+    padding-bottom: 100px;
 }

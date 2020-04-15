@@ -1056,7 +1056,8 @@
    }
    /* line 123, src/assets/scss/layout/_layout-footer.scss */.footer-dark-medium .footer-copyright a {
     color:#fff
-   }huge
+   }
+   
    /*! _animations.scss | Bulkit | CSS Ninja *//* line 36, src/assets/scss/layout/_layout-animations.scss */.animated {
     animation-duration:0.5s;
     animation-fill-mode:both;
@@ -8652,7 +8653,6 @@
     margin: 0 auto;
 }
 
-huge
 .video-wrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
@@ -8900,7 +8900,7 @@ huge
     transition: background 0.15s ease-in-out;
 }
 .slider__range::-webkit-slider-thumb:hover {
-    background: #ff5e4d;huge
+    background: #ff5e4d;
 }
 .slider__range:active::-webkit-slider-thumb {
     background: #ff5e4d;

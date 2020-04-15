@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title> Bulkit :: Login</title>
+    <title> Reef-Vision Beta Signup</title>
     <link rel="icon" type="image/png" href="assets/img/favicon.png" />
 
     <!--Core CSS -->
@@ -65,48 +65,37 @@
         <div id="main-hero" class="hero-body">
             <div class="container has-text-centered">
                 <div class="columns is-vcentered">
-                    <div class="column is-6 is-offset-3 z-index-2">
+                    <div class="column is-8 is-offset-2 z-index-2">
                         
 
-                        <div class="columns is-vcentered pt-60">
-                            <div class="column is-6 is-offset-3">
-                                <div class="info-block">
-                                    <span class="tag is-secondary">Reworked 3.0.0</span>
-                                    <h4>Animated step form</h4>
-                                    <p class="no-padding">You can easily animate a step form by adding animation classes to the <code>.steps-content</code> element. For example, the form below uses the <code>.fadeInUp</code> animation.</p>
-                                </div>
-                            </div>
-                        </div>
             
-                        <div class="columns mt-20">
-                            <div class="column is-8 is-offset-2">
                                 <!-- Wrapper -->
                                 <div class="steps-wrapper">
                                     <!-- Steps Indicators -->
-                                    <div class="steps" id="stepsDemo3">
+                                    <div class="steps" id="stepsDemo">
                                         <!-- Indicator -->
-                                        <div class="step-item is-active">
+                                        <div data-nav="t1" class="step-item is-active">
                                             <div class="step-marker">1</div>
                                             <div class="step-details">
                                                 <p class="step-title">Account</p>
                                             </div>
                                         </div>
                                         <!-- Indicator -->
-                                        <div class="step-item">
+                                        <div data-nav="t2"  class="step-item">
                                             <div class="step-marker">2</div>
                                             <div class="step-details">
                                                 <p class="step-title">Profile</p>
                                             </div>
                                         </div>
                                         <!-- Indicator -->
-                                        <div class="step-item">
+                                        <div data-nav="t3" class="step-item">
                                             <div class="step-marker">3</div>
                                             <div class="step-details">
                                                 <p class="step-title">Social</p>
                                             </div>
                                         </div>
                                         <!-- Indicator -->
-                                        <div class="step-item">
+                                        <div data-nav="t4"  class="step-item">
                                             <div class="step-marker">4</div>
                                             <div class="step-details">
                                                 <p class="step-title">Finish</p>
@@ -115,7 +104,7 @@
                                         <!-- Steps content wrapper -->
                                         <div class="steps-content">
                                             <!-- Step content -->
-                                            <div class="step-content has-text-centered is-active animated preFadeInUp fadeInUp">
+                                            <div data-content="t1" class="step-content has-text-centered is-active animated preFadeInUp fadeInUp">
                                                 <!-- Field -->
                                                 <div class="field">
                                                     <div class="field-label is-normal">
@@ -157,7 +146,7 @@
                                                 </div>
                                             </div>
                                             <!-- Step content -->
-                                            <div class="step-content has-text-centered animated preFadeInUp fadeInUp">
+                                            <div data-content="t2" class="step-content has-text-centered animated preFadeInUp fadeInUp">
                                                 <!-- Field -->
                                                 <div class="field">
                                                     <div class="field-label is-normal">
@@ -199,7 +188,7 @@
                                                 </div>
                                             </div>
                                             <!-- Step content -->
-                                            <div class="step-content has-text-centered animated preFadeInUp fadeInUp">
+                                            <div data-content="t3" class="step-content has-text-centered animated preFadeInUp fadeInUp">
                                                 <!-- Field -->
                                                 <div class="field">
                                                     <div class="field-label is-normal">
@@ -241,7 +230,7 @@
                                                 </div>
                                             </div>
                                             <!-- Step content -->
-                                            <div class="step-content has-text-centered animated preFadeInUp fadeInUp">
+                                            <div data-content="t4"  class="step-content has-text-centered animated preFadeInUp fadeInUp">
                                                 <img class="confirm-image" src="assets/img/illustrations/icons/account.svg">
                                                 <h1 class="title is-5">Your account is now created!</h1>
                                                 <p class="pt-10 pb-10 is-muted">You can now login with your credentials and start using the App</p>
@@ -250,21 +239,21 @@
                                         <!-- Steps Navigation -->
                                         <div class="steps-actions">
                                             <div class="steps-action">
-                                                <a href="#" data-nav="previous" class="button button-cta is-bold is-light btn-align">Back</a>
-                                                <a href="#" data-nav="next" class="button secondary-btn button-cta is-bold raised btn-align">Next</a>
+                                                <a href="#" data-nav="previous" data="previous" class="button button-cta is-bold is-light btn-align">Back</a>
+                                                <a href="#" data-nav="next" data="next"class="button secondary-btn button-cta is-bold raised btn-align">Next</a>
                                             </div>
                                         </div>
+                                        
                                     </div>
                                 </div>
                             </div>
                         </div>
-
+                        <div class="spacer"></div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-
+    
+           
    
     
         <!-- Simple light footer -->
@@ -348,5 +337,7 @@
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
 </body>
+<script>
 
+</script>
 </html>

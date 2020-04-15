@@ -792,6 +792,11 @@
     background-color:#000
     
    }
+   /* line 29, src/assets/scss/layout/_layout-hero.scss */.hero.hero.is-theme-second {
+    background-color:#0b0e1a
+    
+   }
+
    /* line 31, src/assets/scss/layout/_layout-hero.scss */.hero.is-theme-primary .title {
     color:#fff
    }
@@ -1051,10 +1056,7 @@
    }
    /* line 123, src/assets/scss/layout/_layout-footer.scss */.footer-dark-medium .footer-copyright a {
     color:#fff
-   }
-   /* line 126, src/assets/scss/layout/_layout-footer.scss */.footer-dark-medium .footer-copyright a:hover {
-    color:#ff5e4d
-   }
+   }huge
    /*! _animations.scss | Bulkit | CSS Ninja *//* line 36, src/assets/scss/layout/_layout-animations.scss */.animated {
     animation-duration:0.5s;
     animation-fill-mode:both;
@@ -2214,8 +2216,8 @@
    }
    /* line 214, src/assets/scss/components/_components-buttons.scss */.button.primary-btn {
     outline:none;
-    border-color:#4A00E0;
-    background-color:#4A00E0;
+    border-color:rgb(32, 0, 95);
+    background-color:rgb(32, 0, 95);
     color:#fff;
     -webkit-transition:all 0.5s;
     transition:all 0.5s
@@ -3771,14 +3773,14 @@
    /* line 399, src/assets/scss/components/_components-forms.scss */.control-material.is-primary input.material-input:focus ~ label,
    .control-material.is-primary input:valid ~ label,
    .control-material.is-primary textarea:focus ~ label {
-    color:#4A00E0
+    color:rgb(48, 3, 139)
    }
    /* line 405, src/assets/scss/components/_components-forms.scss */.control-material.is-primary .material-input:focus ~ .caret-icon i {
-    color:#4A00E0
+    color:rgb(48, 3, 139)
    }
    /* line 409, src/assets/scss/components/_components-forms.scss */.control-material.is-primary .bar:before,
    .control-material.is-primary .bar:after {
-    background:#4A00E0
+    background:rgb(48, 3, 139)
    }
    /* line 413, src/assets/scss/components/_components-forms.scss */.control-material.is-primary.has-icon input:focus ~ i {
     color:#4A00E0 !important
@@ -8587,7 +8589,30 @@
 /*! _hero.scss | Bulkit | CSS Ninja *//* line 22, src/assets/scss/layout/_layout-hero.scss */.hero.is-relative {
     position:relative;
 }
-
+.small-pb {
+    padding-top: 100px;
+}
+.wavy-login-card {
+    padding: 40px;
+    border-radius: 6px;
+    max-width: 400px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid #ecf0f1;
+    -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+    box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #fcfcfc;
+    border-radius: 0.1875rem;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
 #scrollUp {
     bottom: 130px;
     font-size: 12px;
@@ -8627,7 +8652,7 @@
     margin: 0 auto;
 }
 
-
+huge
 .video-wrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
@@ -8696,6 +8721,17 @@
     bottom:-1px;
     left:0
    }
+   .hero.hero-wavy2:before {
+    background:transparent url(../img/shapes/wavy-alt-blk.svg) no-repeat scroll 0 bottom/100% auto;
+    content:"";
+    height:321px;
+    width:100%;
+    z-index:1 !important;
+    position:absolute;
+    bottom:-1px;
+    left:0
+   }
+
    .is-top {
        z-index: 10;
        padding-top: 300px;
@@ -8797,6 +8833,7 @@
         background-size: cover;
         background-position: center; 
     }
+    
     #demo-video {
         top: 16.5% !important;
     }
@@ -8863,7 +8900,7 @@
     transition: background 0.15s ease-in-out;
 }
 .slider__range::-webkit-slider-thumb:hover {
-    background: #ff5e4d;
+    background: #ff5e4d;huge
 }
 .slider__range:active::-webkit-slider-thumb {
     background: #ff5e4d;

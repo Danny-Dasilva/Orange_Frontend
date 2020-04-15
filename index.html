@@ -682,25 +682,7 @@
         </div>
     </footer>
     <!-- /Simple light footer -->
-    <!-- Side navigation -->
-    <div class="side-navigation-menu">
-        <!-- Categories menu -->
-        <div class="category-menu-wrapper">
-            <!-- Menu -->
-            <ul class="categories">
-                <li class="square-logo"><img src="assets/img/logos/square-white.svg" alt=""></li>
-                <li class="category-link is-active" data-navigation-menu="demo-pages"><i class="sl sl-icon-layers"></i></li>
-                <li class="category-link" data-navigation-menu="onepagers"><i class="sl sl-icon-energy"></i></li>
-                <li class="category-link" data-navigation-menu="components"><i class="sl sl-icon-grid"></i></li>
-            </ul>
-            <!-- Menu -->
-
-          
-        </div>
-        <!-- /Categories menu -->
-
-    </div>
-    <!-- /Side navigation -->
+  
     <!-- Back To Top Button -->
     <div id="backtotop" class="visible"><a href="#top">Scroll Top</a></div> <!-- Concatenated jQuery and plugins -->
   
@@ -708,53 +690,8 @@
     
     <script src="js/jquery.js"></script>
    
-
-    <script>
-         $('[data-tab]').on('click', function (e) {
-      console.log(this)
-      $(this).addClass('is-active').siblings('[data-tab]').removeClass('is-active')
-    console.log($('[data-content=' + $(this).data('tab') + ']'))
-    var tabContent = $('[data-content=' + $(this).data('tab') + ']')
-    tabContent.addClass('is-active').siblings('[data-content]').removeClass('is-active')
-   
-})
-
-
-
-
-
-
-$(document).ready(function () {
-
-// Define the menu we are working with
-var menu = $('#nav');
-// $(menu).removeClass('is-faded');
-// $(menu).addClass('is-faded');
-
-$(window).on("scroll",function(){
-  	var wn = $(window).scrollTop();
-    if(wn > 120){
-    	$(menu).removeClass('is-faded');
-    }
-    else{
-    	$(menu).addClass('is-faded');
-    }
-  });
-});
-
-$('.list li').eq(60).show().siblings().hide();
-function moveImg(nput){
-		var index= nput
-        $('.list li').eq(index).show().siblings().hide();
-	
-	}
-function sliderChange(val) {
-
-
-    moveImg(val)
-}
-
-    </script>
+    <script src="js/main.js"></script>
+    
  
 </body>
 

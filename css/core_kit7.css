@@ -9161,7 +9161,7 @@ input[type=range]::-ms-track {
 	height: 30px;
 	width: 30px;
 	position: relative;
-	z-index: 2;
+	z-index: 100;
 	cursor: pointer;
 	display: block;
 }

@@ -6740,7 +6740,7 @@
        overflow-y:hidden
       }
       /* line 151, src/assets/sass/sass/components/navbar.sass */.navbar-burger {
-       color:#4a4a4a;
+      
        cursor:pointer;
        display:block;
        height:3.25rem;
@@ -6748,7 +6748,7 @@
        width:3.25rem;
        margin-left:auto
       }
-      /* line 33, src/assets/sass/sass/utilities/mixins.sass */.navbar-burger span {
+      /* line 33, src/assets/sass/sass/utilities/mixins.sass.navbar-burger span {
        background-color:currentColor;
        display:block;
        height:1px;
@@ -6765,30 +6765,9 @@
        -webkit-transition-timing-function:ease-out;
        transition-timing-function:ease-out;
        width:16px
-      }
-      /* line 44, src/assets/sass/sass/utilities/mixins.sass */.navbar-burger span:nth-child(1) {
-       top:calc(50% - 6px)
-      }
-      /* line 46, src/assets/sass/sass/utilities/mixins.sass */.navbar-burger span:nth-child(2) {
-       top:calc(50% - 1px)
-      }
-      /* line 48, src/assets/sass/sass/utilities/mixins.sass */.navbar-burger span:nth-child(3) {
-       top:calc(50% + 4px)
-      }
-      /* line 50, src/assets/sass/sass/utilities/mixins.sass */.navbar-burger:hover {
-       background-color:rgba(0,0,0,0.05)
-      }
-      /* line 55, src/assets/sass/sass/utilities/mixins.sass */.navbar-burger.is-active span:nth-child(1) {
-       -webkit-transform:translateY(5px) rotate(45deg);
-       transform:translateY(5px) rotate(45deg)
-      }
-      /* line 57, src/assets/sass/sass/utilities/mixins.sass */.navbar-burger.is-active span:nth-child(2) {
-       opacity:0
-      }
-      /* line 59, src/assets/sass/sass/utilities/mixins.sass */.navbar-burger.is-active span:nth-child(3) {
-       -webkit-transform:translateY(-5px) rotate(-45deg);
-       transform:translateY(-5px) rotate(-45deg)
-      }
+      } */
+     
+      
       /* line 156, src/assets/sass/sass/components/navbar.sass */.navbar-menu {
        display:none
       }

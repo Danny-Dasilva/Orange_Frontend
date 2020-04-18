@@ -1,7 +1,7 @@
 $('[data-tab]').on('click', function (e) {
-  console.log(this)
+ 
   $(this).addClass('is-active').siblings('[data-tab]').removeClass('is-active')
-console.log($('[data-content=' + $(this).data('tab') + ']'))
+
 var tabContent = $('[data-content=' + $(this).data('tab') + ']')
 tabContent.addClass('is-active').siblings('[data-content]').removeClass('is-active')
 

@@ -21,6 +21,7 @@
     
     <!-- Hero and nav -->
     <div class="hero is-theme-second is-relative hero-wavy2 rounded-hero small-pb">
+        
         <nav id="nav" class="navbar is-transparent is-fixed-top is-faded">
             <div class="container">
                 <div class="navbar-brand">
@@ -29,19 +30,37 @@
                         <img class="dark-logo is-hidden" src="img/logos/logo-black.svg" width="28" height="28" alt="">
                     </a>
     
-                   
     
-                    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                    </a>
+
+                    <div class="nav-but-wrap navbar-burger ">
+                        <div class="menu-icon hover-target">
+                            <span class="menu-icon__line menu-icon__line-left"></span>
+                            <span class="menu-icon__line"></span>
+                            <span class="menu-icon__line menu-icon__line-right"></span>
+                        </div>					
+                    </div>	
+                    
+                    <div class="nav">
+                        <div class="nav__content">
+                            <ul class="nav__list">
+                                <li class="nav__list-item active-nav"><a href="#" class="hover-target">home</a></li>
+                                <li class="nav__list-item"><a href="#" class="hover-target">Beta</a></li>
+                                <li class="nav__list-item"><a href="#" class="hover-target">docs</a></li>
+                                <li class="nav__list-item"><a href="#" class="hover-target">contact</a></li>
+                                <li class="nav__list-item"><a href="#" class="hover-target">login</a></li>
+                            </ul>
+                        </div>
+                    </div>		
+
+
+
+
                 </div>
     
                 <div class="navbar-menu">
                     <div class="navbar-start">
                         <a href="#features-1" class="navbar-item has-hover">
-                            Resources
+                            Docs
                         </a>
     
                         <a href="#pricing" class="navbar-item has-hover">
@@ -61,6 +80,7 @@
                 </div>
             </div>
         </nav>
+
         <!-- Hero -->
         <div id="main-hero" class="hero-body">
             <div class="container has-text-centered">
@@ -77,21 +97,21 @@
                                         <div data-nav="t1" class="step-item is-active">
                                             <div class="step-marker">1</div>
                                             <div class="step-details">
-                                                <p class="step-title">Account</p>
+                                                <p class="step-title">Contact</p>
                                             </div>
                                         </div>
                                         <!-- Indicator -->
                                         <div data-nav="t2"  class="step-item">
                                             <div class="step-marker">2</div>
                                             <div class="step-details">
-                                                <p class="step-title">Profile</p>
+                                                <p class="step-title">Team info</p>
                                             </div>
                                         </div>
                                         <!-- Indicator -->
                                         <div data-nav="t3" class="step-item">
                                             <div class="step-marker">3</div>
                                             <div class="step-details">
-                                                <p class="step-title">Social</p>
+                                                <p class="step-title">experience</p>
                                             </div>
                                         </div>
                                         <!-- Indicator -->
@@ -108,12 +128,12 @@
                                                 <!-- Field -->
                                                 <div class="field">
                                                     <div class="field-label is-normal">
-                                                        <label class="label">Username</label>
+                                                        <label class="label">Name</label>
                                                     </div>
                                                     <div class="field-body">
                                                         <div class="field">
                                                             <div class="control">
-                                                                <input class="input" name="username3" id="username3" type="text" placeholder="Username" autofocus data-validate="require">
+                                                                <input class="input" name="username3" id="username3" type="text" placeholder="name" autofocus data-validate="require">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -121,12 +141,12 @@
                                                 <!-- Field -->
                                                 <div class="field">
                                                     <div class="field-label is-normal">
-                                                        <label class="label">Password</label>
+                                                        <label class="label">Email</label>
                                                     </div>
                                                     <div class="field-body">
                                                         <div class="field">
                                                             <div class="control has-icon has-icon-right">
-                                                                <input class="input" type="password" name="password3" id="password3" placeholder="Password" data-validate="require">
+                                                                <input class="input" type="password" name="password3" id="password3" placeholder="email" data-validate="require">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -150,7 +170,7 @@
                                                 <!-- Field -->
                                                 <div class="field">
                                                     <div class="field-label is-normal">
-                                                        <label class="label">First name</label>
+                                                        <label class="label">Team Number</label>
                                                     </div>
                                                     <div class="field-body">
                                                         <div class="field">
@@ -163,7 +183,7 @@
                                                 <!-- Field -->
                                                 <div class="field">
                                                     <div class="field-label is-normal">
-                                                        <label class="label">Last name</label>
+                                                        <label class="label">Address</label>
                                                     </div>
                                                     <div class="field-body">
                                                         <div class="field">

@@ -59,19 +59,29 @@ switch(type) {
 $(document).ready(function () {
 
 // Define the menu we are working with
-var menu = $('#nav');
+  var menu = $('#nav');
 // $(menu).removeClass('is-faded');
 // $(menu).addClass('is-faded');
+  
+  $(window).on("scroll",function(){
+    var wn = $(window).scrollTop();
 
-$(window).on("scroll",function(){
-  var wn = $(window).scrollTop();
-if(wn > 120){
-    $(menu).removeClass('is-faded');
-}
-else{
-    $(menu).addClass('is-faded');
-}
-});
+    if(screen.width > 1020) { 
+      if(wn > 120){
+        $(menu).removeClass('is-faded');
+        }
+        else{
+            $(menu).addClass('is-faded');
+        }
+    } else {
+      $(menu).addClass('is-faded');
+  }
+
+    
+
+
+
+  });
 });
 
 $('.list li').eq(60).show().siblings().hide();
@@ -82,8 +92,7 @@ function moveImg(nput){
 }
 function sliderChange(val) {
 
-
-moveImg(val)
+  moveImg(val)
 }
 
 

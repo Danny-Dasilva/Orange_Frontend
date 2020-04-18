@@ -8840,6 +8840,14 @@
     
 }
 
+@media (max-width: 1020px) {
+    
+    .menu-icon {
+        visibility: visible !important;
+    }
+}
+
+
 #demo-video {
     position: absolute;
     top: 0;
@@ -9163,7 +9171,8 @@ input[type=range]::-ms-track {
 	position: relative;
 	z-index: 100;
 	cursor: pointer;
-	display: block;
+    display: block;
+    visibility: hidden;
 }
 .menu-icon__line {
 	height: 2px;

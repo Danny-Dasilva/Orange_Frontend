@@ -7600,8 +7600,8 @@
        display:block
       }
       /* line 57, src/assets/sass/sass/components/tabs.sass */.tabs li.is-active a {
-       border-bottom-color:#3273dc;
-       color:#3273dc
+       border-bottom-color:#ff5e4d;
+       color:#ff5e4d
       }
       /* line 60, src/assets/sass/sass/components/tabs.sass */.tabs ul {
        -webkit-box-align:center;

@@ -1,4 +1,5 @@
 navbar on mobile
+add years of experience to form
 get rid of he Future of Vision Processing
 add red blue power cells to mobile
 

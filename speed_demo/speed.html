@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  <div class="show-container">
+    <video id="vidId" loop muted autoplay poster="img/videoframe.jpg" class="show-container">
+     
+      <source src="Beach.mp4" type="video/mp4">
+    
+  </video>
+
+    <p id="a">0.000</p>
+  </div>
+<button onclick="play()"> play </button>
+<button onclick="stop()"> Reset </button>
+
+
+
+    
+</body>
+<style>
+    html,body {
+  font-family: monospace;
+  
+}
+.show-container {
+  color: white;
+  background: black;
+  width: 640px;
+  height: 480px;
+  position: relative;
+  
+}
+p {
+  font-size: 11em;
+}
+#a {
+  
+  z-index: 100;
+  position: absolute;
+  top: -40px;
+  left: 80px;
+}
+
+
+</style>
+
+
+<script>
+    // k=onclick=function(){
+    //   k?(S=new Date,T=setInterval("a.innerHTML=(new Date-S)/1e3")):clearInterval(T);k=!k
+    //   }
+
+    function play(){
+      
+      var video = document.getElementById('vidId');
+      // or video = $('.video-selector')[0];
+      video.pause();
+      video.currentTime = 0;
+      video.load();
+      S=new Date
+      T=setInterval("a.innerHTML=(new Date-S)/1e3")
+      
+
+      }
+
+    function stop() {
+      var video = document.getElementById('vidId');
+      // or video = $('.video-selector')[0];
+      video.pause();
+      video.currentTime = 0;
+      video.load();
+      video.pause();
+      S=new Date
+      clearInterval(T)
+      var a = document.getElementById('a');
+
+      a.innerHTML="0.000"
+
+    }
+</script>
+</html>

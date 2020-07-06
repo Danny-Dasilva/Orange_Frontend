@@ -57,7 +57,6 @@ p {
     //   }
 
     function play(){
-      
       var video = document.getElementById('vidId');
       // or video = $('.video-selector')[0];
       video.pause();
@@ -81,6 +80,16 @@ p {
       var a = document.getElementById('a');
 
       a.innerHTML="0.000"
+
+    }
+
+    window.onkeypress = function(event) {
+      console.log(event.keyCode)
+      if (event.keyCode == 114) {
+        stop() 
+      } else if(event.keyCode == 112) {
+        play() 
+      }
 
     }
 </script>

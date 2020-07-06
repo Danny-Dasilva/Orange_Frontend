@@ -7,3 +7,8 @@ add red blue power cells to mobile
 link enter your email to actual send email
 make beta sign up page 
 make docs page
+
+
+
+--time
+INTERVAL = .3    

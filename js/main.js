@@ -8,52 +8,32 @@
 // })
 
 val = 1
-function increment() {
-val = Math.min(val +=1 , 4)
-return val
 
+function setForm(id) {
+  var headerContent = $(`[data-nav=t${id}]`)
+  headerContent.addClass('is-active').removeClass('is-completed').siblings('[data-nav]').removeClass('is-active')
+  headerContent.prevAll('[data-nav]').addClass('is-completed')
+  headerContent.nextAll('[data-nav]').removeClass('is-completed')
+  var tabContent = $(`[data-content=t${id}]`)
+  tabContent.addClass('is-active').siblings('[data-content]').removeClass('is-active')
 }
-
-function decrement() {
-val = Math.max(val -=1 , 1)
-return val
-
-}
-
-
 $('[data-nav]').on('click', function (e) {
 var type = this.dataset.nav
 switch(type) {
   case "next":
-    frm = increment()
-    console.log(frm)
-    var headerContent = $(`[data-nav=t${frm}]`)
-    headerContent.addClass('is-active').siblings('[data-nav]').removeClass('is-active')
-    headerContent.prev('[data-nav]').addClass('is-completed')
-    console.log(headerContent.prev('[data-nav]'))
-
-    var tabContent = $(`[data-content=${frm}]`)
-    tabContent.addClass('is-active').siblings('[data-content]').removeClass('is-active')
-    
+    val = Math.min(val +=1 , 4)
+    setForm(val)
     break;
   case "previous":
-    frm = decrement()
-    console.log(frm)
-    var headerContent = $(`[data-nav=t${frm}]`)
-    headerContent.addClass('is-active').removeClass('is-completed').siblings('[data-nav]').removeClass('is-active')
-    headerContent.next('[data-nav]').removeClass('is-completed')
-    console.log(headerContent.prev('[data-nav]'))
-
-    var tabContent = $(`[data-content=${frm}]`)
-    tabContent.addClass('is-active').siblings('[data-content]').removeClass('is-active')
+    val = Math.max(val -=1 , 1)
+    setForm(val)
     break;
   default:
-    console.log(this, "ahhh")
-    $(this).addClass('is-active').removeClass('is-completed').siblings('[data-nav]').removeClass('is-active')
-    $(this).prevAll('[data-nav]').addClass('is-completed')
-    $(this).nextAll('[data-nav]').removeClass('is-completed')
-    var tabContent = $(`[data-content=${$(this).data('nav')}]`)
-    tabContent.addClass('is-active').siblings('[data-content]').removeClass('is-active')
+    var id = $(this).data('nav')
+    console.log(id[1])
+    val = id[1]
+    setForm(id[1])
+    
 
 
 } 

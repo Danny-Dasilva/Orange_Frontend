@@ -26,29 +26,31 @@ var type = this.dataset.nav
 switch(type) {
   case "next":
     frm = increment()
+    console.log(frm)
     var headerContent = $(`[data-nav=t${frm}]`)
     headerContent.addClass('is-active').siblings('[data-nav]').removeClass('is-active')
     headerContent.prev('[data-nav]').addClass('is-completed')
     console.log(headerContent.prev('[data-nav]'))
 
-    var tabContent = $('[data-content=' + $(`[data-nav=t${frm}]`).data('nav') + ']')
+    var tabContent = $(`[data-content=${$(`[data-nav=t${frm}]`).data('nav')}]`)
     tabContent.addClass('is-active').siblings('[data-content]').removeClass('is-active')
     
     break;
   case "previous":
     frm = decrement()
+    console.log(frm)
     var headerContent = $(`[data-nav=t${frm}]`)
     headerContent.addClass('is-active').removeClass('is-completed').siblings('[data-nav]').removeClass('is-active')
     headerContent.next('[data-nav]').removeClass('is-completed')
     console.log(headerContent.prev('[data-nav]'))
 
-    var tabContent = $('[data-content=' + $(`[data-nav=t${frm}]`).data('nav') + ']')
+    var tabContent = $(`[data-content=${$(`[data-nav=t${frm}]`).data('nav')}]`)
     tabContent.addClass('is-active').siblings('[data-content]').removeClass('is-active')
     break;
   default:
     console.log(this, "ahhh")
     $(this).addClass('is-active').siblings('[data-nav]').removeClass('is-active')
-    var tabContent = $('[data-content=' + $(this).data('nav') + ']')
+    var tabContent = $(`[data-content=${$(this).data('nav')}]`)
     tabContent.addClass('is-active').siblings('[data-content]').removeClass('is-active')
 
 } 

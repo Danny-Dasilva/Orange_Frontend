@@ -373,10 +373,10 @@
        box-sizing:inherit
       }
       /* line 61, src/assets/sass/sass/base/minireset.sass */img,
-      video {
+      /* video {
        height:auto;
        max-width:100%
-      }
+      } */
       /* line 67, src/assets/sass/sass/base/minireset.sass */iframe {
        border:0
       }

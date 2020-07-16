@@ -7,7 +7,11 @@ add red blue power cells to mobile
 link enter your email to actual send email
 
 
-
+video {
+       height:auto;
+       max-width:100%
+      }
+      commented in bulma.css
 
 --time
 INTERVAL = .3    

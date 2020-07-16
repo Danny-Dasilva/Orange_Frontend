@@ -32,7 +32,7 @@ switch(type) {
     headerContent.prev('[data-nav]').addClass('is-completed')
     console.log(headerContent.prev('[data-nav]'))
 
-    var tabContent = $(`[data-content=${$(`[data-nav=t${frm}]`).data('nav')}]`)
+    var tabContent = $(`[data-content=${frm}]`)
     tabContent.addClass('is-active').siblings('[data-content]').removeClass('is-active')
     
     break;
@@ -44,14 +44,17 @@ switch(type) {
     headerContent.next('[data-nav]').removeClass('is-completed')
     console.log(headerContent.prev('[data-nav]'))
 
-    var tabContent = $(`[data-content=${$(`[data-nav=t${frm}]`).data('nav')}]`)
+    var tabContent = $(`[data-content=${frm}]`)
     tabContent.addClass('is-active').siblings('[data-content]').removeClass('is-active')
     break;
   default:
     console.log(this, "ahhh")
-    $(this).addClass('is-active').siblings('[data-nav]').removeClass('is-active')
+    $(this).addClass('is-active').removeClass('is-completed').siblings('[data-nav]').removeClass('is-active')
+    $(this).prevAll('[data-nav]').addClass('is-completed')
+    $(this).nextAll('[data-nav]').removeClass('is-completed')
     var tabContent = $(`[data-content=${$(this).data('nav')}]`)
     tabContent.addClass('is-active').siblings('[data-content]').removeClass('is-active')
+
 
 } 
 

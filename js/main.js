@@ -1,11 +1,11 @@
-$('[data-tab]').on('click', function (e) {
- 
-  $(this).addClass('is-active').siblings('[data-tab]').removeClass('is-active')
+// $('[data-tab]').on('click', function (e) {
+//   console.log("click", $(this).data)
+//   $(this).addClass('is-active').siblings('[data-tab]').removeClass('is-active')
 
-var tabContent = $('[data-content=' + $(this).data('tab') + ']')
-tabContent.addClass('is-active').siblings('[data-content]').removeClass('is-active')
+// var tabContent = $('[data-content=' + $(this).data('tab') + ']')
+// tabContent.addClass('is-active').siblings('[data-content]').removeClass('is-active')
 
-})
+// })
 
 val = 1
 function increment() {
@@ -46,7 +46,7 @@ switch(type) {
     tabContent.addClass('is-active').siblings('[data-content]').removeClass('is-active')
     break;
   default:
-    console.log(this)
+    console.log(this, "ahhh")
     $(this).addClass('is-active').siblings('[data-nav]').removeClass('is-active')
     var tabContent = $('[data-content=' + $(this).data('nav') + ']')
     tabContent.addClass('is-active').siblings('[data-content]').removeClass('is-active')

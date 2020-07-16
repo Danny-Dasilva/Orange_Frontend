@@ -6,6 +6,11 @@ add red blue power cells to mobile
 
 link enter your email to actual send email
 
+remove input from screen display
+
+swap x'screen
+
+change the word newsletter
 
 video {
        height:auto;

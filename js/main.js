@@ -33,11 +33,7 @@ switch(type) {
     console.log(id[1])
     val = id[1]
     setForm(id[1])
-    
-
-
 } 
-
 })
 
 

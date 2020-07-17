@@ -1,10 +1,12 @@
-navbar on mobile
+
 add years of experience to form
 get rid of he Future of Vision Processing
 add red blue power cells to mobile
 
 
 link enter your email to actual send email
+
+finish music
 
 remove input from screen display
 
@@ -20,3 +22,9 @@ video {
 
 --time
 INTERVAL = .3    
+
+
+syleth1 download 
+contact name, email
+team infor: number address state
+experience: how many uears in frc, have you used limelight before, what features do you value in a vision platform

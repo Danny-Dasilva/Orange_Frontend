@@ -24,7 +24,6 @@ video {
 INTERVAL = .3    
 
 
-syleth1 download 
 contact name, email
 team infor: number address state
 experience: how many uears in frc, have you used limelight before, what features do you value in a vision platform

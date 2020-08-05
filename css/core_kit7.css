@@ -6,11 +6,11 @@
    }
    /* line 68, src/assets/scss/abstracts/_themes-kit7.scss */.hero.is-theme-secondary,
    .section.is-theme-secondary {
-    background-color:#23a6d5;
-    background:-webkit-gradient(linear, left top, right top, from(#23a6d5), to(#8E2DE2));
-    background:linear-gradient(to right, #23a6d5, #8E2DE2);
-    background:-webkit-gradient(linear, left bottom, left top, from(#23a6d5), to(#8E2DE2));
-    background:linear-gradient(to top, #23a6d5, #8E2DE2)
+    background-color:#ff5e4d;
+    background:-webkit-gradient(linear, left top, right top, from(#ff5e4d), to(#0f1124));
+    background:linear-gradient(to right, #ff5e4d, #8E2DE2);
+    background:-webkit-gradient(linear, left bottom, left top, from(#ff5e4d), to(#0f1124));
+    background:linear-gradient(to top, #ff5e4d, #8E2DE2)
    }
    /* line 73, src/assets/scss/abstracts/_themes-kit7.scss */.hero.is-theme-secondary .title,
    .section.is-theme-secondary .title {
@@ -111,7 +111,7 @@
     background-color:#4A00E0 !important
    }
    /* line 126, src/assets/scss/layout/_layout-utils.scss */.progress.secondary::-moz-progress-bar {
-    background-color:#23a6d5 !important
+    background-color:#ff5e4d !important
    }
    /* line 135, src/assets/scss/layout/_layout-utils.scss */::-webkit-input-placeholder {
     color:#cecece
@@ -223,7 +223,7 @@
    }
    /* line 128, src/assets/scss/layout/_layout-navbar.scss */.navbar-wrapper .navbar-item.is-menu:hover i,
    .navbar-wrapper .navbar-item.is-menu:hover span {
-    color:#23a6d5 !important
+    color:#ff5e4d !important
    }
    /* line 133, src/assets/scss/layout/_layout-navbar.scss */.navbar-wrapper .navbar-item.is-menu span {
     padding:0 10px
@@ -241,10 +241,10 @@
    }
    /* line 154, src/assets/scss/layout/_layout-navbar.scss */.navbar-wrapper .navbar-link:hover {
     background:transparent !important;
-    color:#23a6d5
+    color:#ff5e4d
    }
    /* line 158, src/assets/scss/layout/_layout-navbar.scss */.navbar-wrapper .navbar-link:hover:after {
-    border-color:#23a6d5
+    border-color:#ff5e4d
    }
    /* line 163, src/assets/scss/layout/_layout-navbar.scss */.navbar-wrapper .navbar-link:after {
     font-size:0.85rem;
@@ -329,10 +329,10 @@
     background:#039BE5
    }
    /* line 268, src/assets/scss/layout/_layout-navbar.scss */.navbar-wrapper.navbar-inverse.is-purple {
-    background:#23a6d5
+    background:#ff5e4d
    }
    /* line 271, src/assets/scss/layout/_layout-navbar.scss */.navbar-wrapper.navbar-inverse.is-purple .navbar-menu.is-active {
-    background:#23a6d5
+    background:#ff5e4d
    }
    /* line 276, src/assets/scss/layout/_layout-navbar.scss */.navbar-wrapper.navbar-inverse.is-red {
     background:#FF7273
@@ -544,7 +544,7 @@
     background-color:#4A00E0
    }
    /* line 36, src/assets/scss/layout/_layout-sections.scss */.section.section-secondary {
-    background-color:#23a6d5
+    background-color:#ff5e4d
    }
    /* line 40, src/assets/scss/layout/_layout-sections.scss */.section.has-border-bottom {
     border-bottom:1px solid #ededed
@@ -636,12 +636,12 @@
    /* line 123, src/assets/scss/layout/_layout-sections.scss */.section .section-title-wrapper .icon-subtitle.is-one i {
     margin:10px 5px 0 5px;
     font-size:2.2rem;
-    color:#23a6d5
+    color:#ff5e4d
    }
    /* line 128, src/assets/scss/layout/_layout-sections.scss */.section .section-title-wrapper .icon-subtitle.is-many i {
     margin:10px 5px 0 5px;
     font-size:1.4rem;
-    color:#23a6d5
+    color:#ff5e4d
    }
    /* line 137, src/assets/scss/layout/_layout-sections.scss */.section .title.section-title {
     font-size:2.7rem;
@@ -816,7 +816,7 @@
         }
 
    /* line 39, src/assets/scss/layout/_layout-hero.scss */.hero.is-theme-secondary {
-    background-color:#23a6d5
+    background-color:#ff5e4d
    }
    /* line 41, src/assets/scss/layout/_layout-hero.scss */.hero.is-theme-secondary .title {
     color:#fff
@@ -1858,7 +1858,7 @@
    }
    /* line 225, src/assets/scss/layout/_layout-navigation.scss */.side-navigation-menu .navigation-menu-wrapper li.has-children ul li a.is-submenu:hover,
    .side-navigation-menu .navigation-menu-wrapper li.has-children ul li a.is-submenu.is-active {
-    color:#23a6d5
+    color:#ff5e4d
    }
    /* line 229, src/assets/scss/layout/_layout-navigation.scss */.side-navigation-menu .navigation-menu-wrapper li.has-children ul li a.is-submenu.has-new-feature {
     position:relative
@@ -1867,7 +1867,7 @@
     content:'2.0';
     position:absolute;
     color:#fff;
-    background:#23a6d5;
+    background:#ff5e4d;
     padding:0;
     font-size:10px;
     font-weight:700;
@@ -2250,8 +2250,8 @@
    }
    /* line 244, src/assets/scss/components/_components-buttons.scss */.button.secondary-btn {
     outline:none;
-    border-color:#23a6d5;
-    background-color:#23a6d5;
+    border-color:#ff5e4d;
+    background-color:#ff5e4d;
     color:#fff;
     -webkit-transition:all 0.5s;
     transition:all 0.5s
@@ -2265,16 +2265,16 @@
     opacity:0.95
    }
    /* line 257, src/assets/scss/components/_components-buttons.scss */.button.secondary-btn.btn-outlined {
-    border-color:#23a6d5;
-    color:#23a6d5;
+    border-color:#ff5e4d;
+    color:#ff5e4d;
     background-color:transparent
    }
    /* line 261, src/assets/scss/components/_components-buttons.scss */.button.secondary-btn.btn-outlined:hover {
     color:#fff;
-    background-color:#23a6d5
+    background-color:#ff5e4d
    }
    /* line 266, src/assets/scss/components/_components-buttons.scss */.button.secondary-btn:focus {
-    border-color:#23a6d5
+    border-color:#ff5e4d
    }
    /* line 274, src/assets/scss/components/_components-buttons.scss */.button.accent-btn {
     outline:none;
@@ -2535,7 +2535,7 @@
     margin-right:10px
    }
    /* line 90, src/assets/scss/components/_components-cards.scss */.feature-card .bookmark i:hover {
-    color:#23a6d5
+    color:#ff5e4d
    }
    /* line 99, src/assets/scss/components/_components-cards.scss */.flex-card,
    .carousel-wrap .testimonials-solo-carousel .testimonial-item {
@@ -2614,7 +2614,7 @@
    }
    /* line 152, src/assets/scss/components/_components-cards.scss */.flex-card .flex-card-header.secondary,
    .carousel-wrap .testimonials-solo-carousel .testimonial-item .flex-card-header.secondary {
-    background:#23a6d5
+    background:#ff5e4d
    }
    /* line 154, src/assets/scss/components/_components-cards.scss */.flex-card .flex-card-header.secondary .header-info div,
    .carousel-wrap .testimonials-solo-carousel .testimonial-item .flex-card-header.secondary .header-info div,
@@ -2671,7 +2671,7 @@
    }
    /* line 197, src/assets/scss/components/_components-cards.scss */.flex-card.secondary-card,
    .carousel-wrap .testimonials-solo-carousel .secondary-card.testimonial-item {
-    background:#23a6d5
+    background:#ff5e4d
    }
    /* line 199, src/assets/scss/components/_components-cards.scss */.flex-card.secondary-card .content,
    .carousel-wrap .testimonials-solo-carousel .secondary-card.testimonial-item .content,
@@ -2898,7 +2898,7 @@
    }
    /* line 378, src/assets/scss/components/_components-cards.scss */.flex-card .navigation-tabs.outlined-pills .tabs.tabs-header.secondary,
    .carousel-wrap .testimonials-solo-carousel .testimonial-item .navigation-tabs.outlined-pills .tabs.tabs-header.secondary {
-    background-color:#23a6d5
+    background-color:#ff5e4d
    }
    /* line 381, src/assets/scss/components/_components-cards.scss */.flex-card .navigation-tabs.outlined-pills .tabs.tabs-header.accent,
    .carousel-wrap .testimonials-solo-carousel .testimonial-item .navigation-tabs.outlined-pills .tabs.tabs-header.accent {
@@ -2983,7 +2983,7 @@
    }
    /* line 437, src/assets/scss/components/_components-cards.scss */.flex-card.auth-card .auth-card-header.header-secondary,
    .carousel-wrap .testimonials-solo-carousel .auth-card.testimonial-item .auth-card-header.header-secondary {
-    background-color:#23a6d5;
+    background-color:#ff5e4d;
     color:#fff;
     -webkit-box-shadow:0 14px 26px -12px rgba(35,166,213,0.42),0 4px 23px 0px rgba(0,0,0,0.12),0 8px 10px -5px rgba(35,166,213,0.2) !important;
     box-shadow:0 14px 26px -12px rgba(35,166,213,0.42),0 4px 23px 0px rgba(0,0,0,0.12),0 8px 10px -5px rgba(35,166,213,0.2) !important
@@ -3201,7 +3201,7 @@
     opacity:0.6
    }
    /* line 680, src/assets/scss/components/_components-cards.scss */.card.ressource-card .card-image .card-image-overlay.secondary {
-    background:#23a6d5;
+    background:#ff5e4d;
     opacity:0.6
    }
    /* line 684, src/assets/scss/components/_components-cards.scss */.card.ressource-card .card-image .card-image-overlay.accent {
@@ -3470,11 +3470,11 @@
     max-height:400px
    }
    /* line 148, src/assets/scss/components/_components-dialogs.scss */.modal.is-active.modal-hero .modal-background {
-    background:-webkit-gradient(linear, left top, right top, from(#23a6d5), to(#8E2DE2));
-    background:linear-gradient(to right, #23a6d5, #8E2DE2);
-    background:-webkit-gradient(linear, left bottom, left top, from(#23a6d5), to(#8E2DE2));
-    background:linear-gradient(to top, #23a6d5, #8E2DE2);
-    background-color:#23a6d5
+    background:-webkit-gradient(linear, left top, right top, from(#ff5e4d), to(#8E2DE2));
+    background:linear-gradient(to right, #ff5e4d, #8E2DE2);
+    background:-webkit-gradient(linear, left bottom, left top, from(#ff5e4d), to(#8E2DE2));
+    background:linear-gradient(to top, #ff5e4d, #8E2DE2);
+    background-color:#ff5e4d
    }
    /* line 156, src/assets/scss/components/_components-dialogs.scss */.modal.is-active.modal-success .modal-background {
     background:#00b289
@@ -3561,10 +3561,10 @@
     color:#4A00E0
    }
    /* line 108, src/assets/scss/components/_components-forms.scss */.input.is-secondary-focus:focus {
-    border-color:#23a6d5
+    border-color:#ff5e4d
    }
    /* line 111, src/assets/scss/components/_components-forms.scss */.input.is-secondary-focus:focus ~ .icon i {
-    color:#23a6d5
+    color:#ff5e4d
    }
    /* line 116, src/assets/scss/components/_components-forms.scss */.input.is-accent-focus:focus {
     border-color:#8E2DE2
@@ -3609,10 +3609,10 @@
     color:#4A00E0
    }
    /* line 170, src/assets/scss/components/_components-forms.scss */textarea.textarea.is-secondary-focus:focus {
-    border-color:#23a6d5
+    border-color:#ff5e4d
    }
    /* line 173, src/assets/scss/components/_components-forms.scss */textarea.textarea.is-secondary-focus:focus ~ span.icon i {
-    color:#23a6d5
+    color:#ff5e4d
    }
    /* line 180, src/assets/scss/components/_components-forms.scss */textarea.textarea.is-accent-focus:focus {
     border-color:#8E2DE2
@@ -3798,20 +3798,20 @@
    /* line 425, src/assets/scss/components/_components-forms.scss */.control-material.is-secondary input.material-input:focus ~ label,
    .control-material.is-secondary input:valid ~ label,
    .control-material.is-secondary textarea:focus ~ label {
-    color:#23a6d5
+    color:#ff5e4d
    }
    /* line 431, src/assets/scss/components/_components-forms.scss */.control-material.is-secondary .material-input:focus ~ .caret-icon i {
-    color:#23a6d5
+    color:#ff5e4d
    }
    /* line 435, src/assets/scss/components/_components-forms.scss */.control-material.is-secondary .bar:before,
    .control-material.is-secondary .bar:after {
-    background:#23a6d5
+    background:#ff5e4d
    }
    /* line 439, src/assets/scss/components/_components-forms.scss */.control-material.is-secondary.has-icon input:focus ~ i {
-    color:#23a6d5 !important
+    color:#ff5e4d !important
    }
    /* line 443, src/assets/scss/components/_components-forms.scss */.control-material.is-secondary .dropdown-list .option.selected {
-    background:#23a6d5;
+    background:#ff5e4d;
     color:#fcfcfc
    }
    /* line 451, src/assets/scss/components/_components-forms.scss */.control-material.is-accent input.material-input:focus ~ label,
@@ -4419,7 +4419,7 @@
     background:#4A00E0
    }
    /* line 1230, src/assets/scss/components/_components-forms.scss */.radio-wrap.is-secondary input:checked+span::after {
-    background:#23a6d5
+    background:#ff5e4d
    }
    /* line 1236, src/assets/scss/components/_components-forms.scss */.radio-wrap.is-accent input:checked+span::after {
     background:#8E2DE2
@@ -4560,14 +4560,14 @@
     padding-bottom:50px
    }
    /* line 1411, src/assets/scss/components/_components-forms.scss */.steps-wrapper .steps .step-item.is-active .step-marker {
-    border-color:#23a6d5 !important;
-    color:#23a6d5
+    border-color:#ff5e4d !important;
+    color:#ff5e4d
    }
    /* line 1416, src/assets/scss/components/_components-forms.scss */.steps-wrapper .steps .step-item.is-active:before {
     background-position:left bottom
    }
    /* line 1422, src/assets/scss/components/_components-forms.scss */.steps-wrapper .steps .step-item.is-completed .step-marker {
-    background:#23a6d5
+    background:#ff5e4d
    }
    /* line 1426, src/assets/scss/components/_components-forms.scss */.steps-wrapper .steps .step-item.is-completed:before {
     background-position:left bottom
@@ -4691,7 +4691,7 @@
    .is-combo .image-combo-box .box-inner .combo-item i,
    .is-combo .stacked-combo-box .box-inner .combo-item i,
    .is-combo .user-combo-box .box-inner .combo-item i {
-    color:#23a6d5;
+    color:#ff5e4d;
     font-size:20px;
     margin-right:8px
    }
@@ -4731,7 +4731,7 @@
    .is-combo .image-combo-box .box-inner .combo-item .fa.is-secondary,
    .is-combo .stacked-combo-box .box-inner .combo-item .fa.is-secondary,
    .is-combo .user-combo-box .box-inner .combo-item .fa.is-secondary {
-    color:#23a6d5
+    color:#ff5e4d
    }
    /* line 1587, src/assets/scss/components/_components-forms.scss */.is-combo .combo-box .box-inner .combo-item img,
    .is-combo .image-combo-box .box-inner .combo-item img,
@@ -4992,7 +4992,7 @@
    .is-combo .image-combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-secondary,
    .is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-secondary,
    .is-combo .user-combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-secondary {
-    color:#23a6d5
+    color:#ff5e4d
    }
    /* line 1766, src/assets/scss/components/_components-forms.scss */.is-combo .combo-box .box-dropdown .dropdown-inner ul li .item-icon img,
    .is-combo .image-combo-box .box-dropdown .dropdown-inner ul li .item-icon img,
@@ -5058,7 +5058,7 @@
    .is-combo .image-combo-box .box-dropdown .dropdown-inner ul li .checkmark svg,
    .is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li .checkmark svg,
    .is-combo .user-combo-box .box-dropdown .dropdown-inner ul li .checkmark svg {
-    stroke:#23a6d5;
+    stroke:#ff5e4d;
     stroke-width:3px;
     height:16px;
     width:16px
@@ -5068,7 +5068,7 @@
    .is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li .checkmark i,
    .is-combo .user-combo-box .box-dropdown .dropdown-inner ul li .checkmark i {
     font-size:16px;
-    color:#23a6d5
+    color:#ff5e4d
    }
    /* line 1823, src/assets/scss/components/_components-forms.scss */.is-combo .combo-box .box-dropdown .dropdown-inner ul li span,
    .is-combo .image-combo-box .box-dropdown .dropdown-inner ul li span,
@@ -5089,7 +5089,7 @@
    .is-combo .image-combo-box .box-dropdown .dropdown-inner ul li.is-active .item-icon i,
    .is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li.is-active .item-icon i,
    .is-combo .user-combo-box .box-dropdown .dropdown-inner ul li.is-active .item-icon i {
-    color:#23a6d5
+    color:#ff5e4d
    }
    /* line 1841, src/assets/scss/components/_components-forms.scss */.is-combo .combo-box .box-dropdown .dropdown-inner ul li.is-active .item-icon .faded-img,
    .is-combo .image-combo-box .box-dropdown .dropdown-inner ul li.is-active .item-icon .faded-img,
@@ -5113,7 +5113,7 @@
    .is-combo .image-combo-box.is-active,
    .is-combo .stacked-combo-box.is-active,
    .is-combo .user-combo-box.is-active {
-    border-color:#23a6d5
+    border-color:#ff5e4d
    }
    /* line 1863, src/assets/scss/components/_components-forms.scss */.is-combo .combo-box.is-active .box-chevron svg,
    .is-combo .combo-box.is-active .box-chevron i,
@@ -5173,7 +5173,7 @@
     padding-left:8px
    }
    /* line 1906, src/assets/scss/components/_components-forms.scss */.is-combo .big-combo-box .box-inner .combo-item i {
-    color:#23a6d5;
+    color:#ff5e4d;
     font-size:1.6rem
    }
    /* line 1912, src/assets/scss/components/_components-forms.scss */.is-combo .big-combo-box .box-inner .combo-item .combo-text {
@@ -5300,13 +5300,13 @@
     background:#f2f2f2
    }
    /* line 2038, src/assets/scss/components/_components-forms.scss */.is-combo .big-combo-box .box-dropdown .dropdown-inner ul li.is-active .item-icon i {
-    color:#23a6d5
+    color:#ff5e4d
    }
    /* line 2042, src/assets/scss/components/_components-forms.scss */.is-combo .big-combo-box .box-dropdown .dropdown-inner ul li.is-active span {
     color:#444F60
    }
    /* line 2052, src/assets/scss/components/_components-forms.scss */.is-combo .big-combo-box.is-active {
-    border-color:#23a6d5
+    border-color:#ff5e4d
    }
    /* line 2055, src/assets/scss/components/_components-forms.scss */.is-combo .big-combo-box.is-active .box-chevron svg {
     -webkit-transform:rotate(180deg);
@@ -5349,12 +5349,12 @@
     color:#4A00E0
    }
    /* line 50, src/assets/scss/components/_components-labels.scss */.b-badge.is-secondary {
-    background:#23a6d5
+    background:#ff5e4d
    }
    /* line 52, src/assets/scss/components/_components-labels.scss */.b-badge.is-secondary.badge-outlined {
     background:transparent;
-    border:1px solid #23a6d5;
-    color:#23a6d5
+    border:1px solid #ff5e4d;
+    color:#ff5e4d
    }
    /* line 58, src/assets/scss/components/_components-labels.scss */.b-badge.is-accent {
     background:#8E2DE2
@@ -5415,13 +5415,13 @@
     color:#4A00E0
    }
    /* line 125, src/assets/scss/components/_components-labels.scss */.tag.is-secondary {
-    background:#23a6d5;
+    background:#ff5e4d;
     color:#fff
    }
    /* line 128, src/assets/scss/components/_components-labels.scss */.tag.is-secondary.is-outlined {
     background:transparent;
-    border:1px solid #23a6d5;
-    color:#23a6d5
+    border:1px solid #ff5e4d;
+    color:#ff5e4d
    }
    /* line 134, src/assets/scss/components/_components-labels.scss */.tag.is-accent {
     background:#8E2DE2;
@@ -5632,7 +5632,7 @@
     color:#fff
    }
    /* line 156, src/assets/scss/components/_components-dropdowns.scss */.is-drop .dropContain .dropOut.is-secondary ul li:hover {
-    background:#23a6d5;
+    background:#ff5e4d;
     color:#fff
    }
    /* line 161, src/assets/scss/components/_components-dropdowns.scss */.is-drop .dropContain .dropOut.is-accent ul li:hover {
@@ -5774,7 +5774,7 @@
    }
    /* line 335, src/assets/scss/components/_components-dropdowns.scss */.jq-dropdown.is-secondary .jq-dropdown-menu li>a:hover,
    .jq-dropdown.is-secondary .jq-dropdown .jq-dropdown-menu label:hover {
-    background-color:#23a6d5;
+    background-color:#ff5e4d;
     color:#fff
    }
    /* line 343, src/assets/scss/components/_components-dropdowns.scss */.jq-dropdown.is-accent .jq-dropdown-menu li>a:hover,
@@ -5848,7 +5848,7 @@
     color:#fff
    }
    /* line 430, src/assets/scss/components/_components-dropdowns.scss */.is-megamenu .mega-btn.secondary-btn {
-    background:#23a6d5 !important;
+    background:#ff5e4d !important;
     color:#fff
    }
    /* line 435, src/assets/scss/components/_components-dropdowns.scss */.is-megamenu .mega-btn.accent-btn {
@@ -7518,7 +7518,7 @@
     color:#4A00E0 !important
    }
    /* line 33, src/assets/scss/layout/_layout-helpers.scss */.color-secondary {
-    color:#23a6d5 !important
+    color:#ff5e4d !important
    }
    /* line 37, src/assets/scss/layout/_layout-helpers.scss */.color-accent {
     color:#8E2DE2 !important
@@ -7539,7 +7539,7 @@
     color:#4A00E0 !important
    }
    /* line 61, src/assets/scss/layout/_layout-helpers.scss */.secondary-text {
-    color:#23a6d5 !important
+    color:#ff5e4d !important
    }
    /* line 65, src/assets/scss/layout/_layout-helpers.scss */.accent-text {
     color:#8E2DE2 !important
@@ -8929,8 +8929,8 @@
 }
 .steps-wrapper .steps .step-item::before {
 
-    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #dbdbdb), color-stop(50%, #7F00FF));
-    background: linear-gradient(to left, #dbdbdb 50%, #7F00FF 50%);
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #dbdbdb), color-stop(50%, #091d66));
+    background: linear-gradient(to left, #dbdbdb 50%, #091d66 50%);
         background-position-x: 0%;
         background-position-y: 0%;
         background-size: auto;

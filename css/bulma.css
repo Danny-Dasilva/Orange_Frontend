@@ -6797,7 +6797,7 @@
       .navbar-link:hover,
       .navbar-link.is-active {
        background-color:#fafafa;
-       color:#3273dc
+       color: #0a0b13
       }
       /* line 181, src/assets/sass/sass/components/navbar.sass */.navbar-item {
        -webkit-box-flex:0;
@@ -9090,7 +9090,8 @@
       /* line 456, src/assets/sass/sass/grid/columns.sass */.columns.is-vcentered {
        -webkit-box-align:center;
        -ms-flex-align:center;
-       align-items:center
+       align-items:center;
+       padding: 10px;
       }
       @media screen and (min-width: 769px), print {
        /* line 460, src/assets/sass/sass/grid/columns.sass */.columns:not(.is-desktop) {

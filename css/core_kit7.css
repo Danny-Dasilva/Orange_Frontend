@@ -8929,8 +8929,8 @@
 }
 .steps-wrapper .steps .step-item::before {
 
-    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #dbdbdb), color-stop(50%, #091d66));
-    background: linear-gradient(to left, #dbdbdb 50%, #091d66 50%);
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #203491), color-stop(50%, #4c9af3));
+    background: linear-gradient(to left, #dbdbdb 50%, #4c9af3 50%);
         background-position-x: 0%;
         background-position-y: 0%;
         background-size: auto;

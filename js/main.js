@@ -8,6 +8,14 @@
 // })
 
 val = 1
+function setTab(id) {
+  var headerContent = $(`[data-tab=${id}]`)
+  headerContent.addClass('is-active').removeClass('is-completed').siblings('[data-tab]').removeClass('is-active')
+  headerContent.prevAll('[data-tab]').addClass('is-completed')
+  headerContent.nextAll('[data-tab]').removeClass('is-completed')
+  var tabContent = $(`[data-content=${id}]`)
+  tabContent.addClass('is-active').siblings('[data-content]').removeClass('is-active')
+}
 
 function setForm(id) {
   var headerContent = $(`[data-nav=t${id}]`)
@@ -36,7 +44,18 @@ switch(type) {
 } 
 })
 
-
+$('[data-tab]').on('click', function (e) {
+  var type = this.dataset.nav
+  var id = $(this).data('tab')
+  console.log(id, e.target.getAttribute("data-tab"))
+  // console.log(e, type, id)
+  // var id = $(this).data('nav')
+  // console.log(id[1])
+  // val = id[1]
+  setTab(id)
+  // setForm(id[1])
+  
+  })
 $(document).ready(function () {
 
 // Define the menu we are working with

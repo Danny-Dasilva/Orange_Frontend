@@ -13829,12 +13829,4 @@
        color:#fff
       }
       
-      /*# sourceMappingURL=../../../sass */
-      .navigation-tabs .navtab-content {
-        display:none;
-        padding:15px;
-        min-height:190px
-       }
-       .navigation-tabs .navtab-content.is-active {
-        display:block
-       }
+    }

@@ -8564,7 +8564,6 @@
     opacity:.75
    }
    
-   /*# sourceMappingURL=../../../scss */
    
 
 
@@ -9179,4 +9178,13 @@ input[type=range]::-ms-track {
 
 .mobile-vid {
     width: 100%;
+}
+
+.navigation-tabs .navtab-content {
+    display:none;
+    padding:15px;
+    min-height:190px
+}
+.navigation-tabs .navtab-content.is-active {
+    display:block;
 }

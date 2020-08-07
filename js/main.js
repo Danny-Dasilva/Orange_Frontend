@@ -6,15 +6,38 @@
 // tabContent.addClass('is-active').siblings('[data-content]').removeClass('is-active')
 
 // })
+var getSiblings = function (elem) {
+
+	// Setup siblings array and get the first sibling
+	var siblings = [];
+	var sibling = elem.parentNode.firstChild;
+
+	// Loop through each sibling and push to the array
+	while (sibling) {
+		if (sibling.nodeType === 1 && sibling !== elem) {
+			siblings.push(sibling);
+		}
+		sibling = sibling.nextSibling
+	}
+
+	return siblings;
+
+};
 
 val = 1
-function setTab(id) {
-  var headerContent = $(`[data-tab=${id}]`)
-  headerContent.addClass('is-active').removeClass('is-completed').siblings('[data-tab]').removeClass('is-active')
-  headerContent.prevAll('[data-tab]').addClass('is-completed')
-  headerContent.nextAll('[data-tab]').removeClass('is-completed')
-  var tabContent = $(`[data-content=${id}]`)
-  tabContent.addClass('is-active').siblings('[data-content]').removeClass('is-active')
+
+
+
+setActive = (selector) => { //toggles main element as active and siblings as innactive
+  var main = document.querySelector(selector)
+  main.classList.add('is-active')
+  var siblings = getSiblings(main)
+  siblings.forEach(element => element.classList.remove('is-active'));
+}
+
+setTab = (id) => {
+  setActive(`[data-tab=${id}]`)
+  setActive(`[data-content=${id}]`)
 }
 
 function setForm(id) {
@@ -45,17 +68,11 @@ switch(type) {
 })
 
 $('[data-tab]').on('click', function (e) {
-  var type = this.dataset.nav
-  var id = $(this).data('tab')
-  console.log(id, e.target.getAttribute("data-tab"))
-  // console.log(e, type, id)
-  // var id = $(this).data('nav')
-  // console.log(id[1])
-  // val = id[1]
+  var id = this.dataset.tab
+  console.log(id)
   setTab(id)
-  // setForm(id[1])
-  
   })
+
 $(document).ready(function () {
 
 // Define the menu we are working with

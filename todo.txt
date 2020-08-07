@@ -1,16 +1,16 @@
 
 add years of experience to form
 get rid of he Future of Vision Processing
-add red blue power cells to mobile
+
 
 re enable red side blue side power cells on main page
 
-remove input from screen display
 
 swap x'screen
 
 change the word newsletter
-
+---
+fix links 
 video {
        height:auto;
        max-width:100%

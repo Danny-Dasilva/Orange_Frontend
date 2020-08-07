@@ -1,17 +1,8 @@
-// $('[data-tab]').on('click', function (e) {
-//   console.log("click", $(this).data)
-//   $(this).addClass('is-active').siblings('[data-tab]').removeClass('is-active')
 
-// var tabContent = $('[data-content=' + $(this).data('tab') + ']')
-// tabContent.addClass('is-active').siblings('[data-content]').removeClass('is-active')
-
-// })
 var getSiblings = function (elem) {
-
 	// Setup siblings array and get the first sibling
 	var siblings = [];
 	var sibling = elem.parentNode.firstChild;
-
 	// Loop through each sibling and push to the array
 	while (sibling) {
 		if (sibling.nodeType === 1 && sibling !== elem) {
@@ -19,14 +10,10 @@ var getSiblings = function (elem) {
 		}
 		sibling = sibling.nextSibling
 	}
-
 	return siblings;
-
 };
 
 val = 1
-
-
 
 setActive = (selector) => { //toggles main element as active and siblings as innactive
   var main = document.querySelector(selector)

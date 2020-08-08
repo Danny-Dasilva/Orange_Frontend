@@ -1,0 +1,23 @@
+{
+  "name": "display",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danny-Dasilva/Orange_Frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danny-Dasilva/issues"
+  },
+  "dependencies": {
+    "electron": "^9.1.1",
+    "puppeteer-in-electron": "^3.0.3"
+  }
+}

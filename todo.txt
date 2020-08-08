@@ -8,9 +8,16 @@ re enable red side blue side power cells on main page
 
 swap x'screen
 
+
 change the word newsletter
 ---
 fix links 
+
+
+nice to do 
+______
+remove jquery
+
 video {
        height:auto;
        max-width:100%

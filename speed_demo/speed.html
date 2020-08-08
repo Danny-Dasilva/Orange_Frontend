@@ -8,11 +8,7 @@
 <body>
 
   <div class="show-container">
-    <video id="vidId" loop muted autoplay poster="img/videoframe.jpg" class="show-container">
-     
-      <source src="Beach.mp4" type="video/mp4">
-    
-  </video>
+
 
     <p id="a">0.000</p>
   </div>
@@ -57,11 +53,11 @@ p {
     //   }
 
     function play(){
-      var video = document.getElementById('vidId');
-      // or video = $('.video-selector')[0];
-      video.pause();
-      video.currentTime = 0;
-      video.load();
+      // var video = document.getElementById('vidId');
+      // // or video = $('.video-selector')[0];
+      // video.pause();
+      // video.currentTime = 0;
+      // video.load();
       S=new Date
       T=setInterval("a.innerHTML=(new Date-S)/1e3")
       
@@ -69,12 +65,12 @@ p {
       }
 
     function stop() {
-      var video = document.getElementById('vidId');
-      // or video = $('.video-selector')[0];
-      video.pause();
-      video.currentTime = 0;
-      video.load();
-      video.pause();
+      // var video = document.getElementById('vidId');
+      // // or video = $('.video-selector')[0];
+      // video.pause();
+      // video.currentTime = 0;
+      // video.load();
+      // video.pause();
       S=new Date
       clearInterval(T)
       var a = document.getElementById('a');

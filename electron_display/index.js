@@ -4,9 +4,15 @@ app.whenReady().then(() => {
     let window = new BrowserWindow({
         width: 1200,
         height: 800,
-        minWidth: 400,
-        minHeight: 300,
-        frame: false,
+        movable:true,
+        movable:true,
+        center:true,
+        kiosk:false,
+        fullscreen:false,
+        frame:false,
+        transparent:true
     });
-    window.webContents.loadURL('https://electronjs.org')
+    window.setBounds({ x: 118, y: 760, width: 800, height: 300 })
+    window.setAlwaysOnTop(true, 'screen');
+    window.webContents.loadURL('http://192.168.1.239:5000/')
 })

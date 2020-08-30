@@ -89,16 +89,6 @@ $(document).ready(function () {
   });
 });
 
-$('.list li').eq(60).show().siblings().hide();
-function moveImg(nput){
-    var index= nput
-    $('.list li').eq(index).show().siblings().hide();
-
-}
-function sliderChange(val) {
-
-  moveImg(val)
-}
 
 
 // same but for jquery 

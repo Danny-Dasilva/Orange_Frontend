@@ -969,7 +969,6 @@
    }
    /*! _footer.scss | Bulkit | CSS Ninja *//* line 17, src/assets/scss/layout/_layout-footer.scss */.footer-dark-medium {
     padding-bottom:0 !important;
-    padding-top: 2rem !important;
     background:#000
    }
    /* line 22, src/assets/scss/layout/_layout-footer.scss */.footer-dark-medium .footer-head {
@@ -7314,7 +7313,7 @@
      font-size:3rem !important
     }
     /* line 1466, src/assets/scss/pages/_pages-landing-kit7.scss */.rounded-hero {
-     min-height:75vh !important
+     min-height:100vh !important
     }
     /* line 1469, src/assets/scss/pages/_pages-landing-kit7.scss */.rounded-hero .absolute-header {
      height:500px
@@ -9189,34 +9188,9 @@ input[type=range]::-ms-track {
     display:block;
 }
 
-.mjpeg-description {
-    background: red;
-    width: 100px;
-   
-    z-index: 10;
-    right: 10%;
-
+svg.footer-pre {
+    margin-top: -250px;
 }
-.h264-description {
-    background: red;
-    
-}
-/* Every rule not marked by "required" is optional and used only to decorate the example */
-.block {
-    display: flex; /* required */
-    flex-flow: row nowrap; /* required */
-}
-.block .background,
-.block .foreground {
-    box-sizing: border-box; /* required */
-    width: 100%; /* required */
-    flex: none; /* required */
-}
-.block .foreground {
-    
-    margin-left: -100%; /* required */
-}
-.block .foreground .outside {
-    position: absolute;
-    
+.side {
+    padding-top: 8rem !important;
 }

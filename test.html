@@ -1,179 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/core_kit7.css">
+    <title> Reef-Vision Home</title>
+    <link rel="icon" type="image/png" href="img/logos/logo-black.svg" />
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet">
 </head>
+
 <body>
-    <div class="ba-slider">
-        <video  autoplay muted loop>
-          <source src="img/video/mjpeg.mp4" type="video/mp4">
-        </video>
-            
-          <div class="resize">
-            <video  autoplay muted loop>
-          <source src="img/video/h264.mp4"  type="video/mp4">
-        </video>
-        
-          </div>
-          <span class="handle"></span>
+
+    <div class="hero">
+
+
+
+        <nav id="nav" class="navbar is-transparent is-fixed-top is-faded">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="/">
+                        <img class="light-logo" src="img/logos/logo-white.svg" width="28" height="28" alt="">
+                        <img class="dark-logo is-hidden" src="img/logos/logo-black.svg" width="28" height="28" alt="">
+                    </a>
+
+
+
+                    <div class="nav-but-wrap navbar-burger ">
+                        <div class="menu-icon hover-target">
+                            <span class="menu-icon__line menu-icon__line-left"></span>
+                            <span class="menu-icon__line"></span>
+                            <span class="menu-icon__line menu-icon__line-right"></span>
+                        </div>
+                    </div>
+
+                    <div class="nav">
+                        <div class="nav__content">
+                            <ul class="nav__list">
+                                <li class="nav__list-item active-nav"><a href="#" class="hover-target">home</a></li>
+                                <li class="nav__list-item"><a href="#" class="hover-target">Beta</a></li>
+                                <li class="nav__list-item"><a href="#" class="hover-target">docs</a></li>
+                                <li class="nav__list-item"><a href="#" class="hover-target">contact</a></li>
+                                <li class="nav__list-item"><a href="#" class="hover-target">login</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="navbar-menu">
+                    <div class="navbar-start">
+                        <a href="#features-1" class="navbar-item has-hover">
+                            Docs
+                        </a>
+
+                        <a href="#pricing" class="navbar-item has-hover">
+                            Contact
+                        </a>
+                    </div>
+
+                    <div class="navbar-end has-hover">
+                        <a class="navbar-item has-border-right">
+                            Login
+                        </a>
+                        <div class="separator"></div>
+                        <div class="navbar-item">
+                            <a href="#" class="button cta-button is-rounded accent-button">Join Beta</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+      
+
+ 
+    </div>
+    <div class="section side">
+        <div class="container ">
+
+            <!-- Feature -->
+       
+
+         
+            <!-- Feature -->
+            <div class="columns is-vcentered">
+
+
+                <div class="column is-7 has-text-centered is-hidden-mobile">
+                    <div class="navigation-tabs animated-tabs simple-tabs">
+                    
+                        <div id="tab-a1" data-content="t1" class="navtab-content is-active">
+
+                            <div class="browser hero-mockup">
+                                <div class="browser-navigation-bar">
+                                    <i></i><i></i><i></i>
+
+                                    <input disabled value="reef.local:5801" />
+                                </div>
+
+                                <div class="browser-container">
+                                    <img class="" src="img/video/1_crop.png" alt="">
+                                    <div class="demo-vid">
+                                        <video class="vid" id="demo-video" poster="img/video/poster.png" autoplay muted
+                                            loop>
+                                            <source src="img/video/red_ai.mp4" type="video/mp4">
+                                        </video>
+
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                      
+
+
+
+
+                    </div>
+
+
+                </div>
+
+                <div class="column is-5">
+                    <h2 class="title section-title is-demo bordered light-text no-margin">Game Specific Ai Models</h2>
+                    <div class="title-divider"></div>
+                    <p class="section-feature-description">
+                        Using customized Deep Learning models the Reef can track anything on the field. This means
+                        tracking game elements is no longer reliant on reflective tape. No need to tune values to get
+                        data just pick the model and you're game ready.
+                    </p>
+                </div>
+
+
+           
+            </div>
+
         </div>
-        <style>
-            @import "lesshat";
-
-.ba-slider {
-    position: relative;
-    overflow: hidden;
-}
- 
-.ba-slider img {
-    width: 100%;
-    display:block;
-}
- 
-.resize {
-    position: absolute;
-    top:0;
-    left: 0;
-    height: 100%;
-    width: 50%;
-    overflow: hidden;
-}
+    </div>
 
 
-.handle { /* Thin line seperator */
-  position:absolute; 
-  left:50%;
-  top:0;
-  bottom:0;
-  width:4px;
-  margin-left:-2px;
- 
-  background: white;
-  cursor: ew-resize;
-}
- 
-.handle:after {  /* Big orange knob  */
-    position: absolute;
-    top: 50%;
-    width: 64px;
-    height: 64px;
-    margin: -32px 0 0 -32px;
- 
-    content:'\21d4';
-    color:white;
-    font-weight:bold;
-    font-size:36px;
-    text-align:center;
-    line-height:64px;
- 
-    background: #ff5e4d; /* @orange */
-    border:1px solid #ff5e4d; /* darken(@orange, 5%) */
-    border-radius: 50%;
-    transition:all 0.3s ease;
+
+    <!-- Footer -->
+    <svg class="footer-pre" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600.591 261.514" xmlns:v="https://vecta.io/nano"><path d="M1600.59 148.41l-.064 113.1H.527L0 20.136S88.5-1.628 254.77.092C484.22 2.47 701.012 119.57 701.012 119.57s206.5 120.264 417.757 128.967 361.16-44.742 481.818-100.126"/></svg>
     
-}
-
-.draggable:after {
-    width: 48px;
-    height: 48px;
-    margin: -24px 0 0 -24px;
-    line-height:48px;
-    font-size:30px;
-}
-        </style>
-
-
-
-        <script src="js/jquery.js"></script>
-   
-        <script >
-            // slider
-// Call & init
-$(document).ready(function(){
-  $('.ba-slider').each(function(){
-    var cur = $(this);
-    // Adjust the slider
-    var width = cur.width()+'px';
-    cur.find('.resize img').css('width', width);
-    // Bind dragging events
-    drags(cur.find('.handle'), cur.find('.resize'), cur);
-  });
-});
-
-// Update sliders on resize. 
-// Because we all do this: i.imgur.com/YkbaV.gif
-$(window).resize(function(){
-  $('.ba-slider').each(function(){
-    var cur = $(this);
-    var width = cur.width()+'px';
-    cur.find('.resize img').css('width', width);
-  });
-});
-
-function drags(dragElement, resizeElement, container) {
-	
-  // Initialize the dragging event on mousedown.
-  dragElement.on('mousedown touchstart', function(e) {
-    
-    dragElement.addClass('draggable');
-    resizeElement.addClass('resizable');
-    
-    // Check if it's a mouse or touch event and pass along the correct value
-    var startX = (e.pageX) ? e.pageX : e.originalEvent.touches[0].pageX;
-    
-    // Get the initial position
-    var dragWidth = dragElement.outerWidth(),
-        posX = dragElement.offset().left + dragWidth - startX,
-        containerOffset = container.offset().left,
-        containerWidth = container.outerWidth();
- 
-    // Set limits
-    minLeft = containerOffset + 10;
-    maxLeft = containerOffset + containerWidth - dragWidth - 10;
-    
-    // Calculate the dragging distance on mousemove.
-    dragElement.parents().on("mousemove touchmove", function(e) {
-    	
-      // Check if it's a mouse or touch event and pass along the correct value
-      var moveX = (e.pageX) ? e.pageX : e.originalEvent.touches[0].pageX;
+    <!-- Simple light footer -->
+    <footer class="footer-dark-medium ">
       
-      leftValue = moveX + posX - dragWidth;
-      
-      // Prevent going off limits
-      if ( leftValue < minLeft) {
-        leftValue = minLeft;
-      } else if (leftValue > maxLeft) {
-        leftValue = maxLeft;
-      }
-      
-      // Translate the handle's left value to masked divs width.
-      widthValue = (leftValue + dragWidth/2 - containerOffset)*100/containerWidth+'%';
-			
-      // Set the new values for the slider and the handle. 
-      // Bind mouseup events to stop dragging.
-      $('.draggable').css('left', widthValue).on('mouseup touchend touchcancel', function () {
-        $(this).removeClass('draggable');
-        resizeElement.removeClass('resizable');
-      });
-      $('.resizable').css('width', widthValue);
-    }).on('mouseup touchend touchcancel', function(){
-      dragElement.removeClass('draggable');
-      resizeElement.removeClass('resizable');
-    });
-    e.preventDefault();
-  }).on('mouseup touchend touchcancel', function(e){
-    dragElement.removeClass('draggable');
-    resizeElement.removeClass('resizable');
-  });
-}
+        <div class="container">
 
+            <div class="columns footer-body">
+                <!-- Column -->
+                <div class="column is-4">
+                    <div class="pt-10 pb-10">
+                        <img class="small-footer-logo" src="img/logos/logo-tagline-white.svg" alt="">
 
+                    </div>
+                    <div>
+                        <span class="moto">Some thing to write here </span>
+                        <div class="social-links pt-10 pb-10">
+                            <a href="#">
+                                <span class="icon"><i class="fa fa-facebook"></i></span>
+                            </a>
+                            <a href="#">
+                                <span class="icon"><i class="fa fa-twitter"></i></span>
+                            </a>
+                            <a href="#">
+                                <span class="icon"><i class="fa fa-linkedin"></i></span>
+                            </a>
+                            <a href="#">
+                                <span class="icon"><i class="fa fa-dribbble"></i></span>
+                            </a>
+                            <a href="#">
+                                <span class="icon"><i class="fa fa-github"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column -->
+                <div class="column is-6 is-offset-2">
+                    <div class="columns">
+                        <!-- Column -->
+                        <div class="column">
+                            <ul class="footer-column">
+                                <li class="column-header">
+                                    Reef-Vision
+                                </li>
+                                <li class="column-item"><a href="#">Home</a></li>
+                                <li class="column-item"><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                        <!-- Column -->
+                        <div class="column">
+                            <ul class="footer-column">
+                                <li class="column-header">
+                                    Resources
+                                </li>
+                                <li class="column-item"><a href="#">Beta Signup</a></li>
+                                <li class="column-item"><a href="docs.html">Docs</a></li>
+                            </ul>
+                        </div>
+                        <!-- Column -->
+                        <div class="column">
+                            <ul class="footer-column">
+                                <li class="column-header">
+                                    Terms
+                                </li>
+                                <li class="column-item"><a href="#">Terms of Service</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright has-text-centered">
+                <p>&copy; 2020 | <a href="#">Reef Vision</a> | All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- /Simple light footer -->
 
+    <!-- Back To Top Button -->
+    <div id="backtotop" class="visible is-hidden-mobile"><a href="#top">Scroll Top</a></div>
+    <!-- Concatenated jQuery and plugins -->
 
-        </script>
+    <script src="js/jquery.js"></script>
+
+    <script src="js/main.js"></script>
+    <script>
+        sendEmail = () => {
+            var mail = document.getElementById('email').value;
+            console.log(mail)
+
+        }
+        var form = document.getElementById("Newsletter");
+        function handleForm(event) { event.preventDefault(); }
+        form.addEventListener('submit', handleForm);
+    </script>
 
 
 </body>
+
 </html>

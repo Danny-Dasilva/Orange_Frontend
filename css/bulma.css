@@ -10317,7 +10317,7 @@
        min-height:50vh
       }
       /* line 99, src/assets/sass/sass/layout/hero.sass */.hero.is-fullheight {
-       min-height:100vh
+       min-height: 1000px
       }
       /* line 104, src/assets/sass/sass/layout/hero.sass */.hero-video {
        overflow:hidden

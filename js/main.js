@@ -60,6 +60,34 @@ $('[data-tab]').on('click', function (e) {
   setTab(id)
   })
 
+$(document).ready(function () {
+
+// Define the menu we are working with
+  var menu = document.getElementById("nav");
+// $(menu).removeClass('is-faded');
+// $(menu).addClass('is-faded');
+  
+  $(window).on("scroll",function(){
+    var wn = $(window).scrollTop();
+
+    if(screen.width > 1020) { 
+      if(wn > 120){
+        menu.classList.remove('is-faded');
+        }
+        else{
+          menu.classList.add('is-faded');
+        }
+    } else {
+      menu.classList.add('is-faded');
+      
+  }
+
+    
+
+
+
+  });
+});
 
 
 
@@ -114,34 +142,6 @@ $('[data-tab]').on('click', function (e) {
 // })(jQuery); 
 
 // })
-
-document.addEventListener("DOMContentLoaded", function(){
-  
-	var mobileNav = function () {
-		var body = undefined;
-		var menu = undefined;
-		var menuItems = undefined;
-		var init = function init() {
-      body = document.querySelector('body');
-      backtotop = document.getElementById('backtotop');
-
-			menu = document.querySelector('.menu-icon');
-			menuItems = document.querySelectorAll('.nav__list-item');
-			applyListeners();
-		};
-		var applyListeners = function applyListeners() {
-			menu.addEventListener('click', function () {
-        toggleClass(backtotop, 'visible')
-				return toggleClass(body, 'nav-active');
-			});
-		};
-		var toggleClass = function toggleClass(element, stringClass) {
-			if (element.classList.contains(stringClass)) element.classList.remove(stringClass);else element.classList.add(stringClass);
-		};
-		init();
-  }
-  mobileNav()
-});
 
 
 

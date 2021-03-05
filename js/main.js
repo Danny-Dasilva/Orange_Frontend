@@ -60,34 +60,6 @@ $('[data-tab]').on('click', function (e) {
   setTab(id)
   })
 
-$(document).ready(function () {
-
-// Define the menu we are working with
-  var menu = document.getElementById("nav");
-// $(menu).removeClass('is-faded');
-// $(menu).addClass('is-faded');
-  
-  $(window).on("scroll",function(){
-    var wn = $(window).scrollTop();
-
-    if(screen.width > 1020) { 
-      if(wn > 120){
-        menu.classList.remove('is-faded');
-        }
-        else{
-          menu.classList.add('is-faded');
-        }
-    } else {
-      menu.classList.add('is-faded');
-      
-  }
-
-    
-
-
-
-  });
-});
 
 
 

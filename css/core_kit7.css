@@ -8833,7 +8833,7 @@
         
     }
     .hero.is-theme-primary, .section.is-theme-primary {
-        background: url('../img/gif/background.png');
+        background: url('../img/gif/background.webp');
         background-size: cover;
         background-position: center; 
     }
